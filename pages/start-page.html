@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我们</title>
+    <script src="../lib-flexible-2.0/index.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="../less/start-page.less">
+    <!-- <link rel="stylesheet" href="../css/start-page.css"> -->
+    <link rel="stylesheet/less" href="../less/common.less">
+    <!-- <link rel="stylesheet" href="../css/common.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@3.5.2/animate.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container ">
+        <div class="row">
+            <!-- header -->
+            <nav class="navbar navbar-default header">
+                <div class="container ">
+                    <div class="row">
+                        <div class="navbar-header">
+                            <span type="button" class="menu">
+                            </span>
+                            <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../pages/product.html">产品服务</a></li>
+                                <li><a href="../pages/case.html">案例中心</a></li>
+                                <li><a href="../pages/news-center2.html">资讯中心</a></li>
+                                <li><a href="../pages/about-us.html">关于鲲鱼</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+
+    <!-- 暂时注释 -->
+    <div class="first-page overhidden-active">
+        <div id="outer">
+            <div class="myDiv">
+                <img class="man" src="../images/启动-首图/鲲鲲宇航员4.gif" alt="">
+            </div>
+        </div>
+
+        <img class="light-ball1" src="../images/启动-首图/启动球3.png" alt="">
+        <img class="light-ball2" src="../images/启动-首图/启动球2.png" alt="">
+        <img class="space-man" src="../images/启动-首图/鲲鲲宇航员4.gif" alt="">
+        <img class="start-ball " src="../images/星球.png" alt="">
+        <img class="start" src="../images/星星.png" alt="">
+        <img class="earth earth-default" src="../images/地球.png" alt="">
+        <img class="big-title" src="../images/首屏文字标题.png" alt="">
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap-3.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.1/less.js"></script>
+    <script>
+        window.onload = function() {
+            //小屏幕下的导航条折叠
+            if ($(window).width() < 768) {
+                //点击导航链接之后，把导航选项折叠起来
+                $(".menu").click(function() {
+                    $("#navbar").collapse('hide');
+                    window.open('../pages/navbar-page.html', '_self')
+
+                });
+            }
+            var outer = document.getElementById('outer')
+            outer.style.transform = 'rotate(-1080deg)'
+            if ($(window).width() < 440) {
+                outer.style.width = 300 + 'px'
+                outer.style.height = 200 + 'px'
+
+            } else if ($(window).width() < 768) {
+                outer.style.width = 420 + 'px'
+                outer.style.height = 200 + 'px'
+            } else if ($(window).width() < 1024) {
+                outer.style.width = 500 + 'px'
+                outer.style.height = 200 + 'px'
+            } else {
+                outer.style.width = 536 + 'px'
+                outer.style.height = 200 + 'px'
+            }
+            // 变化背景
+            setTimeout(function() {
+                $('.first-page').removeClass("overhidden-active")
+                var path = '../images/启动-首图/首图BG.jpg';
+                $("body").css("background-image", "url(" + path + ")").css(" background-repeat", "no-repeat").css('background-size', '100% 100%')
+                $('.myDiv .man').fadeOut(200)
+                $('.light-ball0').fadeOut(200)
+                $(' .light-ball1').fadeOut(200)
+                $(' .light-ball2').fadeOut(200)
+                $(' .space-man').fadeIn(200)
+                $(' .space-man').addClass("animated fadeInUp")
+
+                // 地球变换类名
+                setTimeout(function() {
+                        console.log('执行了');
+
+                        $('.earth').removeClass('earth-default');
+                        $('.earth').addClass('earth-active');
+
+                    }, 3000)
+                    // 打开新的页面
+                setTimeout(function() {
+                    window.open('../pages/test4.html', '_self')
+                }, 3500)
+            }, 2000)
+        }
+    </script>
+</body>
+
+</html>

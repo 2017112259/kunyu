@@ -1,0 +1,507 @@
+@height: 1.36rem;
+body {
+	width: 100vw;
+	height: 100vh;
+
+	background: url(../images/启动-首图/启动bg.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+
+	overflow: hidden;
+	.header {
+		border: none;
+	}
+	.header {
+		border: none;
+	}
+	#outer {
+		position: absolute;
+		width: 800px;
+		height: 600px;
+		margin-left: 20%;
+		margin-top: 50px;
+		transition: 2s all ease-in-out;
+		transform: rotate(120deg);
+		// background-color: red;
+	}
+
+	.myDiv {
+		width: 536px;
+		height: 400px;
+		border-radius: 50%;
+	}
+
+	.first-page {
+		position: relative;
+		height: 700px;
+		.man {
+			width: 336px;
+			height: 200px;
+		}
+
+		.light-ball0 {
+			position: absolute;
+			top: 30%;
+			left: 30%;
+			width: 150px;
+			height: 150px;
+			z-index: -1;
+		}
+		.light-ball1 {
+			position: absolute;
+			bottom: 40%;
+			left: 20%;
+		}
+		.light-ball2 {
+			position: absolute;
+			bottom: 16%;
+			right: 0%;
+		}
+
+		.space-man {
+			position: absolute;
+			right: -140px;
+			top: 0;
+			z-index: 1;
+			display: block;
+			width: 768px;
+			height: 432px;
+			margin: 0 auto;
+			opacity: 0;
+		}
+		.start-ball {
+			position: absolute;
+			left: 20%;
+			top: 100%;
+			z-index: 4;
+			display: block;
+			width: 169px;
+			height: 169px;
+			animation: mymove 1s 3s normal forwards;
+			opacity: 0;
+		}
+
+		.start {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			display: block;
+			width: 1170px;
+			height: 987px;
+			margin: auto;
+			animation: mymove 1s 3s normal forwards;
+			opacity: 0;
+		}
+		.earth {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 2;
+			width: 671px;
+			height: 648px;
+			margin: auto;
+
+			opacity: 0;
+		}
+		.big-title {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 3;
+			width: 651px;
+			height: 244px;
+			margin: auto;
+			animation: mymove 1s 4s normal forwards;
+			opacity: 0;
+		}
+	}
+	.overhidden-active {
+		overflow: hidden;
+		height: calc(100vh - @height);
+		.light-ball0 {
+			display: none;
+		}
+	}
+	@keyframes mymove {
+		0% {
+			transform: scale(0.3);
+			opacity: 0;
+		}
+
+		100% {
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+	@keyframes mymove2 {
+		0% {
+			transform: scale(1);
+			opacity: 1;
+			z-index: 5;
+		}
+		100% {
+			transform: scale(4);
+			opacity: 1;
+			z-index: 5;
+		}
+	}
+	.earth-default {
+		animation: mymove 1s 3.5s normal forwards;
+	}
+	.earth-active {
+		animation: mymove2 1s normal forwards;
+	}
+}
+// @media screen and (max-width: 640px) {
+// 	body {
+// 		.first-page {
+// 			.earth {
+// 				width: 200px;
+// 				height: 200px;
+// 			}
+// 			.start-ball {
+// 				width: 80px;
+// 				height: 80px;
+// 				top: 60%;
+// 			}
+// 		}
+// 	}
+// }
+// @media screen and (max-width: 760px) {
+// 	body {
+// 		.first-page {
+// 			.light-ball1 {
+// 				width: 200px;
+// 				left: 42%;
+// 				bottom: 65%;
+// 			}
+// 			.light-ball2 {
+// 				width: 100px;
+// 				left: 20%;
+// 				bottom: 70%;
+// 			}
+// 			.earth {
+// 				// width: 200px;
+// 				// height: 200px;
+// 				// margin-bottom: 400px;
+// 			}
+// 			.big-title {
+// 				width: 300px;
+// 				height: 144px;
+// 			}
+// 			.space-man {
+// 				right: -22px;
+// 				top: 32px;
+// 				height: 200px;
+// 				width: 200px;
+// 			}
+// 		}
+// 		#outer {
+// 			margin-left: -15%;
+// 		}
+// 	}
+// }
+@media screen and(max-width: 767px) {
+	body {
+		#outer {
+			position: absolute;
+			width: 10.666667rem;
+			height: 8rem;
+			margin-left: 20%;
+			margin-top: 0.666667rem;
+			transition: 2s all ease-in-out;
+			transform: rotate(120deg);
+			// background-color: red;
+		}
+		.myDiv {
+			width: 7.146667rem;
+			height: 5.333333rem;
+			border-radius: 50%;
+		}
+		background: url(../images/启动-首图/mobile-start-bg.jpg) no-repeat fixed;
+		background-size: cover;
+		.header {
+			margin-bottom: 0;
+			background-color: transparent;
+			border-bottom: none;
+			display: fixed;
+			top: 0;
+			.navbar-brand {
+				height: 1.36rem;
+				img {
+					width: 2.133333rem;
+					height: 0.866667rem;
+				}
+			}
+			.navbar-collapse {
+				padding-right: 0;
+			}
+			.navbar-nav {
+				li {
+					height: 1.36rem;
+					display: flex;
+					align-items: center;
+					font-size: 0.24rem;
+					color: #000000;
+				}
+			}
+			.navbar-toggle {
+				margin-right: 0;
+			}
+		}
+		.navbar-default .navbar-toggle:focus,
+		.navbar-default .navbar-toggle:hover {
+			background-color: #110e31;
+		}
+		.navbar-toggle {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: #110e31;
+			width: 1.2rem;
+			height: 1.2rem;
+			margin-top: 0;
+			margin-bottom: 0;
+			.icon-bar {
+				display: inline-block;
+				width: 0.533333rem;
+				height: 0.066667rem;
+				margin: 0 auto 0;
+			}
+			.icon-bar:nth-child(1) {
+				margin-top: 4px;
+			}
+		}
+		.navbar-default .navbar-toggle {
+			border: none;
+		}
+		.navbar-toggle {
+			border-radius: 0;
+		}
+
+		background-position: 0% 0%;
+		// background-size: 100% 17.786667rem;
+
+		.navbar-toggle {
+			width: 1.2rem;
+			height: 1.2rem;
+		}
+		.overhidden-active {
+			// height: auto;
+		}
+		.first-page {
+			.light-ball1 {
+				width: 2.253333rem;
+				height: 2.253333rem;
+				top: 9.493333rem;
+				left: 1.426667rem;
+			}
+			.light-ball2 {
+				right: 0.8rem;
+				// bottom: 1.306667rem;
+				width: 4.053333rem;
+				height: 4.053333rem;
+			}
+			.earth {
+				width: 6.48rem;
+				height: 6.52rem;
+				top: 1rem;
+				margin: 2.32rem auto 0;
+			}
+			.big-title {
+				width: 8.68rem;
+				height: 3.253333rem;
+				top: 2rem;
+				margin: 2.32rem auto 0;
+			}
+			.space-man {
+				width: 5.053333rem;
+				height: 6.093333rem;
+				right: 0.333333rem;
+			}
+			.start {
+				width: 9.986667rem;
+				height: 8.586667rem;
+				top: 0.8rem;
+				margin: 2.32rem auto 0;
+			}
+			.man {
+				width: 4.48rem;
+				height: 2.666667rem;
+			}
+
+			// #outer {
+			// 	width: 7.146667rem;
+			// 	height: 2.666667rem;
+			// }
+		}
+	}
+}
+// // 大屏幕下
+// @media screen and (min-width: 761px) {
+// 	body {
+// 		.first-page {
+// 			position: relative;
+// 			height: 700px;
+// 			.man {
+// 				width: 336px;
+// 				height: 200px;
+// 			}
+
+// 			.light-ball0 {
+// 				position: absolute;
+// 				top: 30%;
+// 				left: 30%;
+// 				width: 150px;
+// 				height: 150px;
+// 				z-index: -1;
+// 			}
+// 			.light-ball1 {
+// 				position: absolute;
+// 				bottom: 5%;
+// 				left: 20%;
+// 			}
+// 			.light-ball2 {
+// 				position: absolute;
+// 				bottom: 23%;
+// 				right: -2%;
+// 				width: 300px;
+// 			}
+
+// 			.space-man {
+// 				position: absolute;
+// 				right: -160px;
+// 				top: 50px;
+// 				z-index: 4;
+// 				display: block;
+// 				width: 768px;
+// 				height: 432px;
+// 				margin: 0 auto;
+// 				opacity: 0;
+// 			}
+// 			.start-ball {
+// 				position: absolute;
+// 				left: 6%;
+// 				top: 88%;
+// 				z-index: 4;
+// 				display: block;
+// 				width: 169px;
+// 				height: 169px;
+// 				animation: mymove 1s 3s normal forwards;
+// 				opacity: 0;
+// 			}
+
+// 			.start {
+// 				position: absolute;
+// 				top: 0;
+// 				bottom: 0;
+// 				left: 0;
+// 				right: 0;
+// 				z-index: 1;
+// 				display: block;
+// 				width: 1170px;
+// 				height: 987px;
+// 				margin: auto;
+// 				animation: mymove 1s 3s normal forwards;
+// 				opacity: 0;
+// 			}
+// 			.earth {
+// 				position: absolute;
+// 				top: 0;
+// 				bottom: 0;
+// 				left: 0;
+// 				right: 0;
+// 				z-index: 2;
+// 				width: 671px;
+// 				height: 648px;
+// 				margin: auto;
+
+// 				opacity: 0;
+// 			}
+// 			.big-title {
+// 				position: absolute;
+// 				top: 0;
+// 				bottom: 0;
+// 				left: 0;
+// 				right: 0;
+// 				z-index: 3;
+// 				width: 100%;
+// 				height: 337px;
+// 				margin: auto;
+// 				animation: mymove 1s 4s normal forwards;
+// 				opacity: 0;
+// 			}
+// 		}
+// 	}
+// }
+@media screen and (min-width: 768px) {
+	body {
+		.first-page {
+			.light-ball2 {
+				width: 300px;
+				height: 300px;
+				bottom: 16%;
+				right: 8%;
+			}
+			.light-ball1 {
+				width: 200px;
+				height: 200px;
+				bottom: 24%;
+				right: 8%;
+			}
+		}
+	}
+}
+@media screen and (min-width: 970px) {
+	body {
+		.first-page {
+			height: 80%;
+			.earth {
+				top: 0;
+			}
+			.big-title {
+				width: 705px;
+			}
+			.space-man {
+				position: absolute;
+				right: -130px;
+				top: 50px;
+				z-index: 1;
+				display: block;
+				width: 768px;
+				height: 432px;
+				margin: 0 auto;
+				// opacity: 0;
+			}
+			.light-ball2 {
+				bottom: 3%;
+				right: 10%;
+			}
+			.light-ball1 {
+				bottom: 14%;
+				right: 24%;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	body {
+		.first-page {
+			.earth {
+				left: 0;
+				top: 0;
+			}
+			.big-title {
+				left: 0;
+				width: auto;
+			}
+		}
+	}
+}

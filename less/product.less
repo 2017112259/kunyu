@@ -1,0 +1,338 @@
+html {
+	height: auto;
+}
+body {
+	overflow-y: scroll;
+	height: 105vh;
+
+	background: url(../images/启动-首图/产品BG.jpg) no-repeat 100% 100% fixed;
+	background-size: 100% 100%;
+	.header {
+		border: none;
+	}
+	.container {
+		padding-right: 0;
+	}
+	overflow-x: hidden;
+
+	.navbar-toggle {
+		background-color: #110e31;
+		width: 90px;
+		height: 90px;
+		margin-top: 0;
+		margin-bottom: 0;
+		.icon-bar {
+			display: inline-block;
+			width: 40px;
+			height: 5px;
+			margin: 12px auto 0;
+		}
+	}
+	.title {
+		position: relative;
+		width: 303px;
+		height: 200px;
+		text-align: center;
+		padding-left: 114px;
+
+		.text-1 {
+			width: 267px;
+			line-height: 44px;
+			background-color: #0e0d32;
+			color: #fff;
+			font-size: 23px;
+		}
+		.text-2 {
+			font-family: 'YouSheBiaoTiHei';
+			width: 324px;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+			color: #0e0d32;
+			font-size: 45px;
+			border-radius: 2px;
+			box-shadow: 0 0 0 3px #0e0d32;
+
+			.text-box {
+				width: 190px;
+				height: 33px;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+		}
+		.img-box {
+			position: absolute;
+			right: -201px;
+			top: -36px;
+			width: 288px;
+			height: 162px;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.content {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-left: 26px;
+
+		.item {
+			margin-top: 40px;
+			margin-left: 10px;
+			&:hover {
+				img {
+					transform: scale(1.05);
+					transition: all 0.5s linear;
+				}
+				.text {
+					width: 264px;
+					height: 62px;
+					line-height: 62px;
+					text-align: center;
+
+					font-size: 22px;
+					background: url('../images/启动-首图/标题悬停背景.png')
+						no-repeat 100% 100%;
+					background-size: 100% 100%;
+				}
+			}
+			.card {
+				width: 278px;
+				height: 376px;
+				background: url('../images/miaobian.png') no-repeat 100% 100%;
+				background-size: 100% 100%;
+
+				.pic-box {
+					width: 250px;
+					height: 350px;
+					position: relative;
+					left: 4px;
+					top: 0;
+					overflow: hidden;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+
+			.text {
+				width: 264px;
+				height: 62px;
+				line-height: 62px;
+				text-align: center;
+				background: url('../images/product-text-border.png') no-repeat
+					100% 100%;
+				background-size: 100% 100%;
+
+				font-size: 22px;
+			}
+		}
+		.item:nth-child(3) {
+			margin-left: 10px;
+		}
+	}
+}
+@media screen and(max-width: 767px) {
+	body {
+		background: url(../images/启动-首图/mobile-product-service.png)
+			no-repeat 100% 100% fixed;
+		.row {
+			margin-right: 0;
+		}
+		.header {
+			margin-bottom: 0;
+			background-color: transparent;
+			border-bottom: none;
+			display: fixed;
+			top: 0;
+			.navbar-brand {
+				height: 1.36rem;
+				img {
+					width: 2.133333rem;
+					height: 0.866667rem;
+				}
+			}
+			.navbar-collapse {
+				padding-right: 0;
+			}
+			.navbar-nav {
+				li {
+					height: 1.36rem;
+					display: flex;
+					align-items: center;
+					font-size: 0.24rem;
+					color: #000000;
+				}
+			}
+			.navbar-toggle {
+				margin-right: 0;
+			}
+		}
+		.navbar-default .navbar-toggle:focus,
+		.navbar-default .navbar-toggle:hover {
+			background-color: #110e31;
+		}
+		.navbar-toggle {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: #110e31;
+			width: 1.2rem;
+			height: 1.2rem;
+			margin-top: 0;
+			margin-bottom: 0;
+			.icon-bar {
+				display: inline-block;
+				width: 0.533333rem;
+				height: 0.066667rem;
+				margin: 0 auto 0;
+			}
+			.icon-bar:nth-child(1) {
+				margin-top: 4px;
+			}
+		}
+		.navbar-default .navbar-toggle {
+			border: none;
+		}
+		.navbar-toggle {
+			border-radius: 0;
+		}
+		.title {
+			width: 4.04rem;
+			margin: 0.72rem auto 0;
+			height: auto;
+			padding-left: 0;
+			.text-1 {
+				width: 2.973333rem;
+				height: 0.56rem;
+				font-size: 0.306667rem;
+				line-height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.text-2 {
+				width: 4.04rem;
+				height: 0.88rem;
+				font-size: 0.48rem;
+				line-height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.text-box {
+					width: 2.533333rem;
+					height: 0.44rem;
+				}
+			}
+			.img-box {
+				width: 3.84rem;
+				height: 2.16rem;
+				right: -1.6rem;
+				top: -0.6rem;
+			}
+		}
+
+		.content {
+			padding-left: 0;
+			margin: 0 auto;
+			.item:nth-child(1) {
+				margin-top: 55px;
+			}
+			.item:nth-child(2) {
+				margin-top: 55px;
+			}
+			.item {
+				margin-left: 0;
+				.card {
+					width: 4.106667rem;
+					height: 5.466667rem;
+					.pic-box {
+						width: 3.666667rem;
+						height: 5.013333rem;
+					}
+				}
+				.text {
+					width: 4.066667rem;
+					height: 0.88rem;
+					font-size: 0.293333rem;
+					line-height: 0.826667rem;
+				}
+			}
+		}
+	}
+}
+// 大屏幕下
+@media screen and (min-width: 792px) {
+	body {
+		.title {
+			padding-left: 42px;
+			img {
+				right: -142px;
+			}
+		}
+		.content {
+			justify-content: space-between;
+		}
+	}
+}
+// 大屏幕下
+@media (min-width: 760px) {
+	body {
+		.product {
+			.title {
+				margin: 0 auto;
+			}
+		}
+		.title {
+			.img-box {
+				right: -240px;
+			}
+			padding-left: 0;
+		}
+		.content {
+			margin: 0 auto;
+		}
+	}
+}
+@media (min-width: 640px) {
+	body {
+		// .product {
+		// 	.title {
+		// 		margin: 0 auto;
+		// 	}
+		// }
+		// .title {
+		// 	padding-left: 0;
+		// }
+		// .content {
+		// 	margin: 0 auto;
+		// }
+	}
+}
+@media (min-width: 1200px) {
+	body {
+		.product {
+			.title {
+				margin: 0 auto;
+			}
+		}
+		.title {
+			float: none;
+			.img-box {
+				right: -98px;
+			}
+			padding-left: 0;
+		}
+		.content {
+			margin: 0 auto;
+		}
+	}
+}

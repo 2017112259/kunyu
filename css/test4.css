@@ -1,0 +1,2320 @@
+@keyframes productBG {
+  0% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.page {
+  position: relative;
+}
+.page1 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: url(../images/启动-首图/联系我们BG.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-size: 120% 100%;
+  background-position: center;
+  transition: all 0.8s linear;
+}
+.page1 .header {
+  border: none;
+}
+.page1 .header .navbar-toggle {
+  width: 86px;
+  height: 90px;
+  background-color: #110e31;
+}
+.page1 .header .navbar-toggle .icon-bar {
+  width: 32px;
+}
+.page1 .about-us {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page1 .about-us .left {
+  margin-top: 118px;
+  height: 500px;
+}
+.page1 .about-us .left .contact-us {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.4s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .contact-us .action {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page1 .about-us .left .contact-us .call-us {
+  font-weight: bold;
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page1 .about-us .left .contact-us .call-us .text-box {
+  margin: 0 auto;
+  width: 204px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.page1 .about-us .left .contact-us img {
+  width: 288px;
+  height: 162px;
+  position: absolute;
+  right: -30px;
+  top: -36px;
+}
+.page1 .about-us .left .input-form {
+  padding-left: 45px;
+  margin-top: 59px;
+  width: 804px;
+  height: 190px;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .input-form .top {
+  display: flex;
+  font-size: 17px;
+}
+.page1 .about-us .left .input-form .top .name-box {
+  display: inline-block;
+  width: 180px;
+  height: 63px;
+  background: url('../images/启动-首图/name.png') no-repeat;
+  background-size: 100% 100%;
+  margin-right: 45px;
+}
+.page1 .about-us .left .input-form .top .email-box {
+  display: inline-block;
+  width: 290px;
+  height: 65px;
+  background: url('../images/启动-首图/email.png') no-repeat;
+  background-size: 100% 100%;
+}
+.page1 .about-us .left .input-form .top .name {
+  border-radius: 3px;
+  text-indent: 8px;
+  width: 176px !important;
+  height: 60px !important;
+}
+.page1 .about-us .left .input-form .top .email {
+  border-radius: 3px;
+  text-indent: 8px;
+  width: 285px !important;
+  height: 60px !important;
+}
+.page1 .about-us .left .input-form .top input:focus {
+  outline: none;
+}
+.page1 .about-us .left .input-form .bottom {
+  margin-top: 30px;
+}
+.page1 .about-us .left .input-form .bottom .textarea-box {
+  width: 510px;
+  height: 107px;
+  background: url('../images/启动-首图/textarea.png') no-repeat;
+  background-size: 100% 100%;
+}
+.page1 .about-us .left .input-form .bottom .message {
+  width: 657px;
+  height: 101px !important;
+  border-radius: 3px;
+  text-indent: 8px;
+  font-size: 17px;
+  margin: 1px 0 0 2px;
+}
+.page1 .about-us .left .button-box {
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .button-box .send-mesage {
+  width: 209px;
+  height: 58px;
+  margin-top: 42px;
+  border-radius: 3px;
+  background-color: #e9c619;
+  font-size: 23px;
+}
+.page1 .about-us .right {
+  margin-top: 262px;
+  margin-left: 45px;
+  margin-top: -260px;
+  width: 716px;
+  height: 193px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .right .call-info .tel-phone {
+  margin-top: 25px;
+}
+.page1 .about-us .right .call-info .tel-phone img {
+  width: 26px;
+  height: 20px;
+}
+.page1 .about-us .right .call-info .email {
+  margin-top: 35px;
+}
+.page1 .about-us .right .call-info .email img {
+  width: 32px;
+  height: 25px;
+}
+.page1 .about-us .right .call-info .address {
+  display: flex;
+  margin-top: 37px;
+}
+.page1 .about-us .right .call-info .address img {
+  width: 19px;
+  height: 25px;
+}
+.page1 .about-us .right .call-info .address .text {
+  display: inline-block;
+}
+.page1 .about-us .right .call-info .tel-phone .text,
+.page1 .about-us .right .call-info .email .text,
+.page1 .about-us .right .call-info .address .text {
+  margin-left: 23px;
+  color: #fff;
+  font-size: 16px;
+}
+.page1 .about-us .right .call-info .tel-phone .img-box,
+.page1 .about-us .right .call-info .email .img-box,
+.page1 .about-us .right .call-info .address .img-box {
+  display: inline-block;
+  width: 32px;
+  height: 25px;
+}
+.page1 .about-us .right .qr-code {
+  margin-top: 49px;
+  width: 373px;
+  height: 154px;
+  display: flex;
+  justify-content: space-between;
+}
+.page1 .about-us .right .qr-code img {
+  width: 154px;
+  height: 154px;
+}
+.page1 .company-info {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  text-align: center;
+  width: 100vw;
+  height: 19px;
+  font-size: 16px;
+  color: #fff;
+}
+.page1 .swim-img {
+  position: absolute;
+  right: -30%;
+  bottom: 14%;
+}
+.page1 .swim-img img {
+  width: 768px;
+  height: 432px;
+}
+.page1 .contact-us {
+  position: absolute;
+  z-index: 4;
+  right: 0%;
+  bottom: 10%;
+}
+.page1 .contact-us .contact-text {
+  opacity: 0;
+  position: relative;
+  top: 22px;
+  right: 5px;
+  width: 234px;
+  height: 204px;
+  z-index: -1;
+  font-size: 24px;
+  background: url('../images/在线咨询.png') no-repeat;
+}
+.page1 .contact-us .contact-text img {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+.page1 .contact-us .contact-text .qq {
+  position: absolute;
+  top: 37%;
+  right: 15%;
+}
+.page1 .contact-us .contact-text .text {
+  position: absolute;
+  top: 61%;
+  left: 28%;
+}
+.page1 .contact-us .contact-text .phone {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+}
+.page2 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/启动-首图/新闻bg.jpg) no-repeat;
+  background-size: 150% 100%;
+  background-position: center;
+  transition: all 0.8s linear;
+  /* 半透明的遮罩层 */
+}
+.page2 .navbar-default {
+  border: none;
+}
+.page2 .title {
+  position: relative;
+  width: 303px;
+  height: 115px;
+  margin: 117px auto 0;
+  text-align: center;
+  opacity: 0;
+}
+.page2 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page2 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page2 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page2 .title img {
+  position: absolute;
+  z-index: 3;
+  right: -100px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page2 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 56px;
+}
+.page2 .content .left-box {
+  height: 343px;
+  background: url(../images/product-miaobian.png) no-repeat;
+  background-size: 100% 100%;
+  opacity: 0;
+}
+.page2 .content .left-box .left {
+  width: 610px;
+  height: 331px;
+  padding: 30px 30px 26px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.page2 .content .left-box .left .left-title {
+  font-size: 22px;
+  line-height: 22px;
+}
+.page2 .content .left-box .left .left-content {
+  margin-top: 30px;
+  font-size: 16px;
+  height: 45px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.page2 .content .left-box .left img {
+  width: 547px;
+  height: 160px;
+  margin-top: 20px;
+}
+.page2 .content .right {
+  width: 626px;
+  height: 274px;
+  opacity: 0;
+  margin-top: 56px;
+}
+.page2 .content .right .item {
+  width: 626px;
+  height: 138px;
+  display: flex;
+}
+.page2 .content .right .item .outline-box1 {
+  width: 141px;
+  height: 129px;
+  background: url(../images/pink-miaobain.png) no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .content .right .item .outline-box1 .outline {
+  width: 132px;
+  height: 120px;
+}
+.page2 .content .right .item .outline-box1 .outline .year {
+  margin-top: 30px;
+  margin-left: 21px;
+  font-size: 20px;
+}
+.page2 .content .right .item .outline-box1 .outline .date {
+  margin-top: 24px;
+  margin-left: 21px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 36px;
+}
+.page2 .content .right .text {
+  margin-left: 32px;
+}
+.page2 .content .right .text .text-title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.page2 .content .right .text .text-content {
+  width: 447px;
+  height: 40px;
+  margin-top: 33px;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.page2 .content .right .item2 {
+  display: none;
+  margin-top: 69px;
+}
+.page2 .content .right .item2 .outline-box2 {
+  width: 141px;
+  height: 129px;
+  background: url(../images/yellow-miaobian.png) no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .content .right .item2 .outline-box2 .outline {
+  width: 132px;
+  height: 120px;
+}
+.page2 .content .right .item2 .outline-box2 .outline .year {
+  margin-top: 30px;
+  margin-left: 21px;
+  font-size: 20px;
+}
+.page2 .content .right .item2 .outline-box2 .outline .date {
+  margin-top: 24px;
+  margin-left: 21px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 36px;
+}
+.page2 .ride-a-bike {
+  display: flex;
+  justify-content: flex-end;
+}
+.page2 .ride-a-bike img {
+  width: 576px;
+  height: 324px;
+}
+.page2 .contact-us {
+  position: absolute;
+  z-index: 4;
+  right: 0%;
+  bottom: 10%;
+}
+.page2 .contact-us .contact-text {
+  opacity: 0;
+  position: relative;
+  top: 22px;
+  right: 5px;
+  width: 234px;
+  height: 204px;
+  z-index: -1;
+  font-size: 24px;
+  background: url('../images/在线咨询.png') no-repeat;
+}
+.page2 .contact-us .contact-text img {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+.page2 .contact-us .contact-text .qq {
+  position: absolute;
+  top: 37%;
+  right: 15%;
+}
+.page2 .contact-us .contact-text .text {
+  position: absolute;
+  top: 61%;
+  left: 28%;
+}
+.page2 .contact-us .contact-text .phone {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+}
+.page2 #news-overlay {
+  background-color: #000;
+  filter: alpha(opacity=50);
+  /* IE的透明度 */
+  opacity: 0.5;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-popup {
+  width: 80%;
+  height: 94%;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 105;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-popup .content-text {
+  width: 100%;
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 94%;
+  background: url('../images/new-bg.png') no-repeat no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .news-popup .content-text .title-text {
+  height: 94px;
+  margin-top: 50px;
+  font-size: 34px;
+  color: #000000;
+  white-space: wrap;
+  text-align: center;
+}
+.page2 .news-popup .content-text .date div {
+  width: 140px;
+  height: 34px;
+  line-height: 34px;
+  margin: 40px auto 49px;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+}
+.page2 .news-popup .content-text .text .text-top,
+.page2 .news-popup .content-text .text .text-bottom {
+  font-size: 16px;
+  color: #000000;
+}
+.page2 .news-popup .content-text .text .text-top {
+  padding-bottom: 20px;
+}
+.page2 .news-popup .content-text .text .text-bottom {
+  padding-top: 20px;
+}
+.page2 .news-popup .content-text .text .text-img {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.page2 .news-popup .content-text .text .text-img img {
+  width: 100%;
+  height: 100%;
+}
+.page2 .news-popup .close-box {
+  padding: 0;
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  right: -39px;
+  top: -39px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.page2 .news-popup video {
+  width: 1025px;
+  height: 516px;
+}
+.page2 .news-popup .pre-next-box {
+  width: 100vw;
+  position: relative;
+}
+.page2 .news-popup .pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page2 .news-popup .pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-popup .pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-pre-next-box {
+  width: 100vw;
+  height: 0;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 103;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page2 .news-pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page3 {
+  overflow: hidden;
+  position: relative;
+  background: url(../images/启动-首图/案例BG.jpg) no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: 300% 300%;
+  background-position: center;
+  transition: all 0.8s linear;
+  /* 半透明的遮罩层 */
+}
+.page3 .navbar-default {
+  border: none;
+}
+.page3 .title {
+  position: relative;
+  width: 303px;
+  height: 115px;
+  margin: 117px auto 0;
+  text-align: center;
+  opacity: 0;
+}
+.page3 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page3 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page3 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page3 .title img {
+  position: absolute;
+  z-index: 3;
+  right: -100px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page3 .card-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 53px;
+  height: 433px;
+}
+.page3 .card-box .item {
+  box-shadow: 10px 8px 0 1px #0e0d32;
+  border-radius: 3px;
+  opacity: 0;
+}
+.page3 .card-box .item1 {
+  margin-left: 49px;
+}
+.page3 .card-box .item1 .dot-box .dot {
+  background-color: #257dff;
+}
+.page3 .card-box .item2 {
+  margin-left: 49px;
+}
+.page3 .card-box .item2 .dot-box .dot {
+  background-color: #79abff;
+}
+.page3 .card-box .bottom {
+  width: 606px;
+  height: 374px;
+  margin: 0 -1px -1px 0;
+}
+.page3 .card-box .bottom img {
+  width: 100%;
+  height: 100%;
+}
+.page3 .top {
+  line-height: 59px;
+  display: flex;
+  background-color: #fff;
+}
+.page3 .top .dot-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80px;
+}
+.page3 .top .dot-box .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+}
+.page3 .top .text {
+  font-size: 24px;
+  color: #110e31;
+  margin-left: 10px;
+}
+.page3 .fly {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+.page3 .fly img {
+  width: 579px;
+  height: 324px;
+}
+.page3 .contact-us {
+  position: absolute;
+  z-index: 4;
+  right: 0%;
+  bottom: 10%;
+}
+.page3 .contact-us .contact-text {
+  opacity: 0;
+  position: relative;
+  top: 22px;
+  right: 5px;
+  width: 234px;
+  height: 204px;
+  z-index: -1;
+  font-size: 24px;
+  background: url('../images/在线咨询.png') no-repeat;
+}
+.page3 .contact-us .contact-text img {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+.page3 .contact-us .contact-text .qq {
+  position: absolute;
+  top: 37%;
+  right: 15%;
+}
+.page3 .contact-us .contact-text .text {
+  position: absolute;
+  top: 61%;
+  left: 28%;
+}
+.page3 .contact-us .contact-text .phone {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+}
+.page3 #case-overlay {
+  background-color: #000;
+  filter: alpha(opacity=50);
+  /* IE的透明度 */
+  opacity: 0.5;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .case-popup {
+  max-height: 94%;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 102;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .case-popup .bottom {
+  position: relative;
+  height: 94%;
+  background: url('../images/case-card-bg.png') no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.page3 .case-popup .bottom .top-border {
+  position: relative;
+  padding: 16px;
+  border: 2px solid #171335;
+  margin-top: 48px;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.page3 .case-popup .bottom .top-border video {
+  width: 100%;
+  height: 100%;
+}
+.page3 .case-popup .bottom .play-btn {
+  width: 210px;
+  height: 102px;
+  position: absolute;
+  left: 50%;
+  top: 29%;
+  transform: translate(-50%, -111%);
+  z-index: 103;
+  display: none !important;
+}
+.page3 .case-popup .bottom .bottom-text {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  white-space: wrap;
+  font-size: 18px;
+  margin: 37px auto 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.page3 .case-popup .close-box {
+  padding: 0;
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  right: -39px;
+  top: -39px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.page3 .case-popup video {
+  width: 1025px;
+  height: 516px;
+}
+.page3 .pre-next-box {
+  width: 100vw;
+  height: 0;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 103;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page3 .pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page3 .pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page4 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/启动-首图/产品BG.jpg) no-repeat fixed;
+  overflow: hidden;
+  background-size: 300% 300%;
+  background-position: center;
+  transition: all 0.8s linear;
+}
+.page4 .navbar-default {
+  border: none;
+}
+.page4 .title {
+  position: relative;
+  width: 303px;
+  height: 115px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}
+.page4 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page4 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page4 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page4 .title img {
+  position: absolute;
+  z-index: 3;
+  right: -100px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page4 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.page4 .content .item {
+  margin-top: 55px;
+  opacity: 0;
+}
+.page4 .content .item .card {
+  width: 278px;
+  height: 376px;
+  background: url('../images/miaobian.png') no-repeat;
+  background-size: 100% 100%;
+}
+.page4 .content .item .card .pic-box {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  left: 4px;
+  top: 0;
+}
+.page4 .content .item .card .pic-box img {
+  width: 100%;
+  height: 100%;
+}
+.page4 .content .item .text {
+  width: 264px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  background: url('../images/product-text-border.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 22px;
+}
+.page4 .content .item:nth-child(3) {
+  display: none;
+}
+.page4 .bg-box {
+  display: flex;
+  justify-content: space-between;
+}
+.page4 .bg-box .cloud1 {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+}
+.page4 .bg-box .cloud2 {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+}
+.page4 .bg-box .cloud2 img {
+  width: 100%;
+  height: 100px;
+}
+@keyframes cloud-move-left {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -20%;
+  }
+}
+@keyframes cloud-move-right {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: -20%;
+  }
+}
+.page4 .cloud-kunkun {
+  z-index: 3;
+  margin-top: -60px;
+  overflow: hidden;
+}
+.page4 .cloud-kunkun img {
+  width: 558px;
+  height: 366px;
+}
+.page4 .contact-us {
+  position: absolute;
+  z-index: 4;
+  right: 0%;
+  bottom: 10%;
+}
+.page4 .contact-us .contact-text {
+  opacity: 0;
+  position: relative;
+  top: 22px;
+  right: 5px;
+  width: 234px;
+  height: 204px;
+  z-index: -1;
+  font-size: 24px;
+  background: url('../images/在线咨询.png') no-repeat;
+}
+.page4 .contact-us .contact-text img {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+.page4 .contact-us .contact-text .qq {
+  position: absolute;
+  top: 37%;
+  right: 15%;
+}
+.page4 .contact-us .contact-text .text {
+  position: absolute;
+  top: 61%;
+  left: 28%;
+}
+.page4 .contact-us .contact-text .phone {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+}
+@media screen and (max-width: 767px) {
+  body {
+    background-position: 0% 0%;
+    background-size: 100% 17.786667rem;
+    background-attachment: scroll;
+  }
+  body .header {
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+    display: fixed;
+    top: 0;
+  }
+  body .header .navbar-brand {
+    height: 1.36rem;
+  }
+  body .header .navbar-brand img {
+    width: 2.133333rem;
+    height: 0.866667rem;
+  }
+  body .header .navbar-collapse {
+    padding-right: 0;
+  }
+  body .header .navbar-nav li {
+    height: 1.36rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #000000;
+  }
+  body .header .navbar-toggle {
+    margin-right: 0;
+  }
+  body .navbar-default .navbar-toggle:focus,
+  body .navbar-default .navbar-toggle:hover {
+    background-color: #110e31;
+  }
+  body .navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #110e31;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  body .navbar-toggle .icon-bar {
+    display: inline-block;
+    width: 0.533333rem;
+    height: 0.066667rem;
+    margin: 0 auto 0;
+  }
+  body .navbar-toggle .icon-bar:nth-child(1) {
+    margin-top: 4px;
+  }
+  body .navbar-default .navbar-toggle {
+    border: none;
+  }
+  body .navbar-toggle {
+    border-radius: 0;
+  }
+  body .navbar-toggle {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .page4 {
+    background: url('../images/启动-首图/mobile-product-bg.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-size: 120% 100%;
+    background-position: center;
+    transition: all 0.8s linear;
+  }
+  .page4 .title {
+    width: 4.373333rem;
+    display: block;
+    height: 1.533333rem;
+  }
+  .page4 .title .left {
+    width: 7.466667rem;
+    height: 4.28rem;
+    margin: 0.666667rem auto 0.653333rem;
+    float: none;
+  }
+  .page4 .title .right {
+    float: none;
+    width: 7.293333rem;
+    height: 8.266667rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .page4 .title .right .title {
+    width: 4.613333rem;
+    height: 1.253333rem;
+  }
+  .page4 .title .right .content {
+    width: 7.293333rem;
+    height: 6.373333rem;
+    font-family: NotoSansHans-Regular;
+    font-size: 0.426667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.76rem;
+    letter-spacing: 0;
+    color: #192035;
+  }
+  .page4 .title img {
+    right: -1.333333rem;
+    top: -0.56rem;
+    width: 3.84rem;
+    height: 2.16rem;
+  }
+  .page4 .title .text-1 {
+    width: 3.173333rem;
+    height: 0.586667rem;
+    line-height: 0.586667rem;
+    font-size: 0.306667rem;
+  }
+  .page4 .title .text-2 {
+    width: 4.32rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    font-size: 0.306667rem;
+  }
+  .page4 .title .text-2 .text-box {
+    width: 2.533333rem;
+    height: 0.44rem;
+  }
+  .page4 .content .item .card {
+    width: 4.106667rem;
+    height: 5.466667rem;
+    background-size: 106% 106%;
+  }
+  .page4 .content .item .card .pic-box {
+    width: 3.893333rem;
+    height: 5.32rem;
+  }
+  .page4 .content .item .text {
+    width: 4.066667rem;
+    height: 0.88rem;
+    margin-top: 0.36rem;
+    line-height: 0.826667rem;
+    font-size: 0.293333rem;
+  }
+  .page4 .cloud {
+    overflow: hidden;
+  }
+  .page4 .cloud-kunkun {
+    width: 7.44rem;
+    height: 4.88rem;
+    margin-top: 0;
+  }
+  .page4 .cloud-kunkun img {
+    width: 100%;
+    height: 100%;
+  }
+  .page4 .contact-us {
+    width: 100vw;
+    height: 1.333333rem;
+  }
+  .page4 .contact-us .call-btn {
+    width: 1.4rem;
+    height: 1.493333rem;
+    position: absolute;
+    right: 1.186667rem;
+    bottom: 0;
+  }
+  .page4 .contact-us .contact-text {
+    position: absolute;
+    top: -1.013333rem;
+    right: .4rem;
+    top: -2.493333rem;
+    width: 3.12rem;
+    height: 2.72rem;
+    font-size: 0.32rem;
+    background-size: cover;
+  }
+  .page4 .contact-us .contact-text .close {
+    width: 0.333333rem;
+    height: 0.333333rem;
+    font-size: 0.28rem;
+  }
+  .page3 {
+    background: url('../images/启动-首图/mobile-case-bg.jpg.png') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-size: 120% 100%;
+    background-position: center;
+    transition: all 0.8s linear;
+  }
+  .page3 .title {
+    width: 4.373333rem;
+    display: block;
+    height: 1.533333rem;
+    margin: 0.786667rem auto 0.653333rem;
+  }
+  .page3 .title .left {
+    width: 7.466667rem;
+    height: 4.28rem;
+    float: none;
+  }
+  .page3 .title .right {
+    float: none;
+    width: 7.293333rem;
+    height: 8.266667rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .page3 .title .right .title {
+    width: 4.613333rem;
+    height: 1.253333rem;
+  }
+  .page3 .title .right .content {
+    width: 7.293333rem;
+    height: 6.373333rem;
+    font-family: NotoSansHans-Regular;
+    font-size: 0.426667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.76rem;
+    letter-spacing: 0;
+    color: #192035;
+  }
+  .page3 .title img {
+    right: -1.333333rem;
+    top: -0.56rem;
+    width: 3.84rem;
+    height: 2.16rem;
+  }
+  .page3 .title .text-1 {
+    width: 3.173333rem;
+    height: 0.586667rem;
+    line-height: 0.586667rem;
+    font-size: 0.306667rem;
+  }
+  .page3 .title .text-2 {
+    width: 4.32rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    font-size: 0.306667rem;
+  }
+  .page3 .title .text-2 .text-box {
+    width: 2.533333rem;
+    height: 0.44rem;
+  }
+  .page3 .card-box {
+    justify-content: center;
+  }
+  .page3 .card-box .item {
+    width: 8.866667rem;
+    height: 6.4rem;
+  }
+  .page3 .card-box .item1 {
+    margin-left: 0;
+  }
+  .page3 .card-box .item2 {
+    margin-left: 0;
+    margin-top: 0.573333rem;
+  }
+  .page3 .card-box .bottom {
+    width: 8.88rem;
+    height: 5.626667rem;
+  }
+  .page3 .fly {
+    width: 7.72rem;
+    height: 4.32rem;
+    display: none;
+  }
+  .page3 .fly img {
+    width: 100%;
+    height: 100%;
+  }
+  .page3 .contact-us {
+    width: 100vw;
+    height: 1.333333rem;
+  }
+  .page3 .contact-us .call-btn {
+    width: 1.4rem;
+    height: 1.493333rem;
+    position: absolute;
+    right: 1.186667rem;
+    bottom: 0;
+  }
+  .page3 .contact-us .contact-text {
+    position: absolute;
+    top: -1.013333rem;
+    right: .4rem;
+    top: -2.493333rem;
+    width: 3.12rem;
+    height: 2.72rem;
+    font-size: 0.32rem;
+    background-size: cover;
+  }
+  .page3 .contact-us .contact-text .close {
+    width: 0.333333rem;
+    height: 0.333333rem;
+    font-size: 0.28rem;
+  }
+  .page3 .top {
+    line-height: 0.786667rem;
+  }
+  .page3 .top .text {
+    font-size: 0.32rem;
+    margin-left: 0.133333rem;
+  }
+  .page3 .pre-next-box img {
+    width: 0.92rem;
+    height: 1.986667rem;
+  }
+  .page3 .case-popup .close-box {
+    width: 0.986667rem;
+    height: 0.986667rem;
+    right: -0.253333rem;
+    top: -0.253333rem;
+  }
+  .page3 .case-popup .close-box .close {
+    width: 0.986667rem;
+    height: 0.986667rem;
+  }
+  .page2 {
+    background: url('../images/启动-首图/mobile-news-bg.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-size: 120% 100%;
+    background-position: center;
+    transition: all 0.8s linear;
+  }
+  .page2 .title {
+    width: 4.373333rem;
+    display: block;
+    height: 1.533333rem;
+    margin: 0.786667rem auto 0.653333rem;
+  }
+  .page2 .title .left {
+    width: 7.466667rem;
+    height: 4.28rem;
+    float: none;
+  }
+  .page2 .title .right {
+    float: none;
+    width: 7.293333rem;
+    height: 8.266667rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .page2 .title .right .title {
+    width: 4.613333rem;
+    height: 1.253333rem;
+  }
+  .page2 .title .right .content {
+    width: 7.293333rem;
+    height: 6.373333rem;
+    font-family: NotoSansHans-Regular;
+    font-size: 0.426667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.76rem;
+    letter-spacing: 0;
+    color: #192035;
+  }
+  .page2 .title img {
+    right: -1.333333rem;
+    top: -0.56rem;
+    width: 3.84rem;
+    height: 2.16rem;
+  }
+  .page2 .title .text-1 {
+    width: 3.173333rem;
+    height: 0.586667rem;
+    line-height: 0.586667rem;
+    font-size: 0.306667rem;
+  }
+  .page2 .title .text-2 {
+    width: 4.32rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    font-size: 0.306667rem;
+  }
+  .page2 .title .text-2 .text-box {
+    width: 2.533333rem;
+    height: 0.44rem;
+  }
+  .page2 .content .left-box {
+    margin: 0;
+  }
+  .page2 .content .left-box .left {
+    width: 8.866667rem;
+    height: 4.92rem;
+  }
+  .page2 .content .right {
+    width: 8.346667rem;
+    height: 3.653333rem;
+    margin-top: 0.746667rem auto 0;
+    float: none;
+    margin-left: 0;
+    margin: 0.746667rem auto 0;
+    width: 8.893333rem;
+    display: flex;
+    justify-content: center;
+  }
+  .page2 .contact-us {
+    width: 100vw;
+    height: 1.333333rem;
+  }
+  .page2 .contact-us .call-btn {
+    width: 1.4rem;
+    height: 1.493333rem;
+    position: absolute;
+    right: 1.186667rem;
+    bottom: 0;
+  }
+  .page2 .contact-us .contact-text {
+    position: absolute;
+    top: -1.013333rem;
+    right: .4rem;
+    top: -2.493333rem;
+    width: 3.12rem;
+    height: 2.72rem;
+    font-size: 0.32rem;
+    background-size: cover;
+  }
+  .page2 .contact-us .contact-text .close {
+    width: 0.333333rem;
+    height: 0.333333rem;
+    font-size: 0.28rem;
+  }
+  .page2 .content {
+    justify-content: center;
+  }
+  .page2 .content .left-box {
+    width: 8.866667rem;
+    height: 4.92rem;
+  }
+  .page2 .content .left-box .left {
+    width: 8.266667rem;
+    margin: 0.4rem auto 0;
+    padding: 0;
+  }
+  .page2 .content .left-box .left .left-title {
+    font-size: 0.293333rem;
+    line-height: 0.293333rem;
+  }
+  .page2 .content .left-box .left img {
+    width: 7.88rem;
+    height: 2.306667rem;
+  }
+  .page2 .content .left-box .left .left-content {
+    margin-top: 0.4rem;
+    font-size: 0.213333rem;
+    height: 0.6rem;
+    width: 7.693333rem;
+    height: 0.32rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .page2 .content .right .item {
+    width: 8.346667rem;
+    height: 1.84rem;
+  }
+  .page2 .content .right .item .outline-box1 {
+    width: 2.093333rem;
+    height: 1.973333rem;
+  }
+  .page2 .content .right .item .outline-box1 .outline .year {
+    width: 0.76rem;
+    height: 0.266667rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.386667rem;
+    letter-spacing: 0.026667rem;
+    color: #333333;
+    margin-top: 0.4rem;
+    margin-left: 0.28rem;
+  }
+  .page2 .content .right .item .outline-box1 .outline .date {
+    width: 1.493333rem;
+    height: 0.386667rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.386667rem;
+    letter-spacing: 0.053333rem;
+    color: #333333;
+    margin-top: 0.32rem;
+    margin-left: 0.28rem;
+  }
+  .page2 .content .right .text {
+    margin-left: 0.426667rem;
+  }
+  .page2 .content .right .text .text-content {
+    margin-top: 0.44rem;
+  }
+  .page2 .content .right .text .text-title {
+    margin-top: 0.266667rem;
+  }
+  .page2 .content .right .text .text-title {
+    width: 6rem;
+    height: 0.466667rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.053333rem;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .page2 .content .right .text .text-content {
+    width: 6rem;
+    height: 0.8rem;
+    font-family: MicrosoftYaHei;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.44rem;
+    letter-spacing: 0.026667rem;
+    color: #333333;
+  }
+  .page2 .ride-a-bike {
+    position: absolute;
+    bottom: 0.666667rem;
+    right: -0.8rem;
+    width: 7.72rem;
+    height: 4.32rem;
+  }
+  .page2 .ride-a-bike img {
+    width: 7.68rem;
+    height: 4.32rem;
+  }
+  .page2 .news-pre-next-box img {
+    width: 0.92rem;
+    height: 1.986667rem;
+  }
+  .page2 .news-popup .content-text .title-text {
+    height: 1.253333rem;
+    margin-top: 0.666667rem;
+    font-size: 0.48rem;
+  }
+  .page2 .news-popup .content-text .text {
+    margin: 0 auto;
+    float: none;
+    overflow-y: scroll;
+    padding: 0;
+  }
+  .page2 .news-popup .content-text .date div {
+    width: 1.866667rem;
+    height: 0.413333rem;
+    line-height: 0.413333rem;
+    margin: 0.533333rem auto 0.653333rem;
+    font-size: 0.24rem;
+  }
+  .page2 .news-popup .content-text .text .text-top,
+  .page2 .news-popup .content-text .text .text-bottom {
+    font-size: 0.426667rem;
+    text-indent: 2em;
+  }
+  .page1 {
+    background: url('../images/启动-首图/mobile-contact-us-bg.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-size: 120% 100%;
+    background-position: center;
+    transition: all 0.8s linear;
+  }
+  .page1 .header {
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+    display: fixed;
+    top: 0;
+    background-position: 0% 0%;
+    background-size: 100% 17.786667rem;
+    background-attachment: scroll;
+  }
+  .page1 .header .navbar-brand {
+    height: 1.36rem;
+  }
+  .page1 .header .navbar-brand img {
+    width: 2.133333rem;
+    height: 0.866667rem;
+  }
+  .page1 .header .navbar-collapse {
+    padding-right: 0;
+  }
+  .page1 .header .navbar-nav li {
+    height: 1.36rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #000000;
+  }
+  .page1 .header .navbar-toggle {
+    margin-right: 0;
+  }
+  .page1 .header .navbar-default .navbar-toggle:focus,
+  .page1 .header .navbar-default .navbar-toggle:hover {
+    background-color: #110e31;
+  }
+  .page1 .header .navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #110e31;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .page1 .header .navbar-toggle .icon-bar {
+    display: inline-block;
+    width: 0.533333rem;
+    height: 0.066667rem;
+    margin-top: 3px auto 0;
+  }
+  .page1 .header .navbar-toggle .icon-bar:nth-child(1) {
+    margin-top: 0.053333rem;
+  }
+  .page1 .header .navbar-default .navbar-toggle {
+    border: none;
+  }
+  .page1 .header .navbar-toggle {
+    border-radius: 0;
+  }
+  .page1 .header .navbar-toggle {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .page1 .title {
+    width: 4.373333rem;
+    display: block;
+    height: 1.533333rem;
+    margin: 0.786667rem auto 0.653333rem;
+  }
+  .page1 .title .left {
+    width: 7.466667rem;
+    height: 4.28rem;
+    float: none;
+  }
+  .page1 .title .right {
+    float: none;
+    width: 7.293333rem;
+    height: 8.266667rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .page1 .title .right .title {
+    width: 4.613333rem;
+    height: 1.253333rem;
+  }
+  .page1 .title .right .content {
+    width: 7.293333rem;
+    height: 6.373333rem;
+    font-family: NotoSansHans-Regular;
+    font-size: 0.426667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.76rem;
+    letter-spacing: 0;
+    color: #192035;
+  }
+  .page1 .title img {
+    right: -1.333333rem;
+    top: -0.56rem;
+    width: 3.84rem;
+    height: 2.16rem;
+  }
+  .page1 .title .text-1 {
+    width: 3.173333rem;
+    height: 0.586667rem;
+    line-height: 0.586667rem;
+    font-size: 0.306667rem;
+  }
+  .page1 .title .text-2 {
+    width: 4.32rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    font-size: 0.306667rem;
+  }
+  .page1 .title .text-2 .text-box {
+    width: 2.533333rem;
+    height: 0.44rem;
+  }
+  .page1 .about-us .left {
+    margin-top: 1.066667rem;
+    height: auto;
+  }
+  .page1 .about-us .left .contact-us img {
+    width: 3.84rem;
+    height: 2.16rem;
+    position: absolute;
+    right: -0.4rem;
+    top: -0.48rem;
+  }
+  .page1 .about-us .left .contact-us .action {
+    width: 3.56rem;
+    line-height: 0.586667rem;
+    background-color: #0e0d32;
+    color: #fff;
+    font-size: 0.306667rem;
+  }
+  .page1 .about-us .left .contact-us .call-us {
+    width: 4.32rem;
+    height: 0.933333rem;
+    line-height: 0.933333rem;
+    background-color: #fff;
+    color: #0e0d32;
+    font-size: 0.48rem;
+    border-radius: 0.026667rem;
+    box-shadow: 0 0 0 3px #0e0d32;
+  }
+  .page1 .about-us .left .contact-us .call-us .text-box {
+    width: 2.72rem;
+    height: 0.48rem;
+  }
+  .page1 .about-us .left .input-form {
+    padding-left: 0.6rem;
+    margin-top: 0.786667rem;
+    width: 10.72rem;
+    height: 2.533333rem;
+    opacity: 0;
+  }
+  .page1 .about-us .left .input-form .top .name-box {
+    width: 3.133333rem;
+    height: .786667rem;
+    margin-right: .6rem;
+  }
+  .page1 .about-us .left .input-form .top .email-box {
+    width: 5rem;
+    height: .786667rem;
+  }
+  .page1 .about-us .left .input-form .top .name {
+    padding-left: 0.3rem;
+    width: 3.026667rem !important;
+    height: .773333rem !important;
+    border-radius: 0.12rem;
+    margin-right: 0.653333rem;
+    text-indent: 0.106667rem;
+    font-size: 0.226667rem;
+  }
+  .page1 .about-us .left .input-form .top .email {
+    padding-left: 0.3rem;
+    width: 4.906667rem !important;
+    height: 0.773333rem !important;
+    border-radius: 0.12rem;
+    text-indent: 0.106667rem;
+    font-size: 0.226667rem;
+  }
+  .page1 .about-us .left .input-form .bottom {
+    margin-top: 0.4rem;
+  }
+  .page1 .about-us .left .input-form .bottom .textarea-box {
+    width: 8.853333rem;
+    height: .84rem;
+  }
+  .page1 .about-us .left .input-form .bottom .message {
+    padding-left: 0.3rem;
+    padding-top: 0.2rem;
+    width: 8.76rem !important;
+    height: .76rem !important;
+    text-indent: 0.106667rem;
+    font-size: 0.226667rem;
+    border-left: 2px solid #000000;
+    border-top: 1px solid #000000;
+    border-radius: .04rem;
+  }
+  .page1 .about-us .left .bottom .message {
+    width: 8.76rem;
+    height: 1.333333rem;
+    border-radius: 0.12rem;
+    text-indent: 0.106667rem;
+    font-size: 0.226667rem;
+  }
+  .page1 .about-us .left .button-box {
+    opacity: 0;
+    padding-left: 0.6rem;
+  }
+  .page1 .about-us .left .button-box .send-mesage {
+    width: 2.786667rem;
+    height: 0.773333rem;
+    margin-top: 0.56rem;
+    border-radius: 0.04rem;
+    box-shadow: 6px 0.08rem 0 -2px #0e0d32;
+    background-color: #e9c619;
+    font-size: 0.306667rem;
+  }
+  .page1 .about-us .right {
+    margin-left: 0;
+    margin-top: -3.466667rem;
+    width: 9.546667rem;
+    height: 2.573333rem;
+  }
+  .page1 .about-us .right .call-info .tel-phone .text,
+  .page1 .about-us .right .call-info .email .text,
+  .page1 .about-us .right .call-info .address .text {
+    margin-left: 0.306667rem;
+  }
+  .page1 .about-us .right .qr-code {
+    padding-left: 0.6rem;
+    margin-top: 0.653333rem;
+    width: 4.973333rem;
+    height: 2.053333rem;
+  }
+  .page1 .about-us .right .qr-code img {
+    width: 2.053333rem;
+    height: 2.053333rem;
+  }
+  .page1 .about-us .right .call-info {
+    padding-left: 0.6rem;
+  }
+  .page1 .about-us .right .call-info .tel-phone {
+    padding-left: 0.04rem;
+  }
+  .page1 .about-us .right .call-info .tel-phone .img-box {
+    width: 0.346667rem;
+    height: 0.266667rem;
+    margin-top: -0.093333rem;
+  }
+  .page1 .about-us .right .call-info .email {
+    margin-top: 0.466667rem;
+  }
+  .page1 .about-us .right .call-info .email .img-box {
+    width: 0.426667rem;
+    height: 0.333333rem;
+  }
+  .page1 .about-us .right .call-info .address {
+    margin-top: 0.493333rem;
+    padding-left: 0.066667rem;
+  }
+  .page1 .about-us .right .call-info .address .img-box {
+    width: 0.253333rem;
+    height: 0.333333rem;
+    height: 0.586667rem;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.04rem;
+  }
+  .page1 .about-us .right .call-info .address .img-box img {
+    width: 0.253333rem;
+    height: 0.333333rem;
+  }
+  .page1 .contact-us {
+    width: 100vw;
+    height: 1.333333rem;
+  }
+  .page1 .contact-us .call-btn {
+    width: 1.4rem;
+    height: 1.493333rem;
+    position: absolute;
+    right: 1.186667rem;
+    bottom: 0;
+  }
+  .page1 .contact-us .contact-text {
+    position: absolute;
+    top: -1.013333rem;
+    right: .4rem;
+    top: -2.493333rem;
+    width: 3.12rem;
+    height: 2.72rem;
+    font-size: 0.32rem;
+    background-size: cover;
+  }
+  .page1 .contact-us .contact-text .close {
+    width: 0.333333rem;
+    height: 0.333333rem;
+    font-size: 0.28rem;
+  }
+  .page1 .swim-img {
+    bottom: 6%;
+  }
+  .page1 .swim-img img {
+    width: 10.24rem;
+    height: 5.76rem;
+  }
+  .page1 .company-info {
+    bottom: 0.666667rem;
+    height: 0.253333rem;
+    font-size: 0.213333rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .page4 {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .page4 .content .item:nth-child(3) {
+    display: none;
+  }
+  body .page4 .cloud-kunkun {
+    bottom: 0;
+    margin-top: -45px;
+  }
+  body .page3 {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .page3 .body {
+    background-size: 20% 100%;
+  }
+  body .page3 .card-box {
+    justify-content: space-between;
+  }
+  body .page3 .card-box .item2 {
+    display: none;
+    margin-left: 0;
+  }
+  body .page3 .title {
+    margin-top: 0;
+  }
+  body .page3 .page3 .card-box {
+    justify-content: center;
+  }
+  body .page2 {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .page2 .content .left-box {
+    margin: 0 auto;
+  }
+  body .page2 .content .right {
+    margin: 52px auto 0;
+  }
+  body .page2 .content .item:nth-child(2) {
+    display: none;
+  }
+  body .page2 .ride-a-bike {
+    margin-top: -62px;
+  }
+  body .page2 .title {
+    margin-top: 49px;
+  }
+  body .page2 .ride-a-bike {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+  }
+  body .page1 {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .page1 .about-us {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body .page1 .about-us .left {
+    margin-top: 40px;
+    width: 504px;
+    height: 500px;
+  }
+  body .page1 .about-us .left .contact-us {
+    position: relative;
+    text-align: center;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    animation-iteration-count: 1;
+  }
+  body .page1 .about-us .left .contact-us .action {
+    width: 267px;
+    line-height: 44px;
+    background-color: #0e0d32;
+    color: #fff;
+    font-size: 23px;
+  }
+  body .page1 .about-us .left .contact-us .call-us {
+    width: 324px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fff;
+    color: #0e0d32;
+    font-size: 36px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 3px #0e0d32;
+  }
+  body .page1 .about-us .left .contact-us .call-us .text-box {
+    margin: 0 auto;
+    width: 204px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .page1 .about-us .left .contact-us img {
+    width: 288px;
+    height: 162px;
+    position: absolute;
+    right: -388px;
+    top: -36px;
+  }
+  body .page1 .about-us .left .input-form {
+    padding-left: 0;
+    margin-top: 59px;
+    width: 804px;
+    height: 190px;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-iteration-count: 1;
+  }
+  body .page1 .about-us .left .input-form .top {
+    padding-left: 0;
+    font-size: 17px;
+  }
+  body .page1 .about-us .left .input-form .top .name {
+    width: 173px;
+    height: 58px;
+    text-indent: 8px;
+  }
+  body .page1 .about-us .left .input-form .top .email {
+    width: 282px;
+    height: 58px;
+    text-indent: 8px;
+  }
+  body .page1 .about-us .left .input-form .top input:focus {
+    outline: none;
+  }
+  body .page1 .about-us .left .input-form .bottom {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  body .page1 .about-us .left .input-form .bottom .message {
+    width: 504px;
+    height: 100px;
+    text-indent: 8px;
+    font-size: 17px;
+  }
+  body .page1 .about-us .left .button-box {
+    opacity: 0;
+    padding-left: 0;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-iteration-count: 1;
+  }
+  body .page1 .about-us .left .button-box .send-mesage {
+    width: 160px;
+    height: 58px;
+    margin-top: 42px;
+    border-radius: 3px;
+    background-color: #e9c619;
+    font-size: 23px;
+  }
+  body .page1 .about-us .right {
+    padding-left: 15px;
+    margin-top: -285px;
+    margin-left: -10px;
+    width: 716px;
+    height: 193px;
+    display: flex;
+    justify-content: space-between;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-iteration-count: 1;
+  }
+  body .page1 .about-us .right .call-info {
+    width: 300px;
+  }
+  body .page1 .about-us .right .call-info .tel-phone {
+    margin-top: 25px;
+  }
+  body .page1 .about-us .right .call-info .tel-phone img {
+    width: 26px;
+    height: 20px;
+  }
+  body .page1 .about-us .right .call-info .email {
+    margin-top: 35px;
+  }
+  body .page1 .about-us .right .call-info .email img {
+    width: 32px;
+    height: 25px;
+  }
+  body .page1 .about-us .right .call-info .address {
+    display: flex;
+    margin-top: 37px;
+    width: 235px;
+  }
+  body .page1 .about-us .right .call-info .address img {
+    width: 19px;
+    height: 25px;
+  }
+  body .page1 .about-us .right .call-info .address .text {
+    display: inline-block;
+  }
+  body .page1 .about-us .right .call-info .tel-phone .text,
+  body .page1 .about-us .right .call-info .email .text,
+  body .page1 .about-us .right .call-info .address .text {
+    margin-left: 23px;
+    color: #fff;
+    font-size: 16px;
+  }
+  body .page1 .about-us .right .call-info .tel-phone .img-box,
+  body .page1 .about-us .right .call-info .email .img-box,
+  body .page1 .about-us .right .call-info .address .img-box {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+  }
+  body .page1 .about-us .right .qr-code {
+    width: 373px;
+    height: 154px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .page1 .about-us .right .qr-code img {
+    width: 154px;
+    height: 154px;
+  }
+  body .page1 .company-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100vw;
+    height: 19px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 202px;
+  }
+  body .page1 .swim-img {
+    position: absolute;
+    right: 10%;
+    bottom: 84px;
+  }
+  body .page1 .swim-img img {
+    width: 768px;
+    height: 432px;
+  }
+  body .page1 .col-xs-8 {
+    width: 0;
+  }
+  body .page1 .col-xs-offset-3 {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 970px) {
+  body .page4 .content .item:nth-child(3) {
+    display: block;
+  }
+  body .page3 {
+    width: 100vw;
+    height: 100vh;
+  }
+  body .page3 .body {
+    background-size: 20% 100%;
+  }
+  body .page3 .card-box {
+    justify-content: center;
+  }
+  body .page3 .card-box .item1 {
+    margin-left: 0;
+  }
+  body .page3 .card-box .item2 {
+    margin-top: 50px;
+    margin-left: 0;
+    display: block;
+  }
+  body .page3 .title {
+    margin-top: 0;
+  }
+  body .page3 .page3 .card-box {
+    justify-content: center;
+  }
+  body .page1 .about-us .right {
+    margin-top: -370px;
+  }
+  body .page2 .content .left-box {
+    margin: 0 auto;
+  }
+  body .page2 .content .left-box .left {
+    margin: 0 auto;
+  }
+  body .page2 .content .right {
+    margin: 49px auto 0;
+  }
+  body .page2 .ride-a-bike {
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+  }
+  body .page2 .col-xs-offset-1 {
+    margin-left: 0;
+  }
+  body .page2 .news-popup .content-text .title-title {
+    margin: 50px auto 0;
+    float: none;
+  }
+  body .page2 .news-popup .content-text .date div {
+    margin-top: 151px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body .page4 content .item:nth-child(3) {
+    display: block;
+  }
+  body .page3 .body {
+    background-size: 20% 100%;
+  }
+  body .page3 .card-box .item {
+    width: 570px;
+    height: 415px;
+  }
+  body .page3 .card-box .item1 {
+    margin-left: 0;
+  }
+  body .page3 .card-box .bottom {
+    width: 571px;
+    height: 358px;
+  }
+  body .page1 .about-us .right {
+    margin-top: 262px;
+    margin-left: 49px;
+  }
+  body .page1 .about-us .left {
+    margin-top: 105px;
+  }
+  body .page1 .swim-img {
+    bottom: 7px;
+    right: 0;
+  }
+  body .page1 .company-info {
+    margin-bottom: 50px;
+  }
+  body .page2 .content .left-box {
+    width: 607px;
+    height: 331px;
+  }
+  body .page2 .content .right {
+    margin: 0 auto 0;
+  }
+  body .page2 .content .item:nth-child(2) {
+    display: flex;
+  }
+  body .page2 .title {
+    margin-top: 49px;
+  }
+}

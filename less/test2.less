@@ -1,0 +1,954 @@
+.page {
+	position: relative;
+}
+.page1 {
+	position: relative;
+	background: url(../images/联系我们BG.png) no-repeat 100% 100%/100% 100%;
+	.header {
+		border: none;
+	}
+	.about-us {
+		height: 100vh;
+		display: flex;
+		flex-wrap: wrap;
+
+		.left {
+			margin-top: 118px;
+			width: 504px;
+			height: 500px;
+			.contact-us {
+				position: relative;
+				text-align: center;
+				opacity: 0;
+
+				animation-duration: 1s; //动画持续时间
+				animation-delay: 0.4s; //动画延迟时间
+				animation-iteration-count: 1; //动画执行次数
+				.action {
+					width: 267px;
+					line-height: 44px;
+					background-color: #0e0d32;
+					color: #fff;
+					font-size: 23px;
+				}
+				.call-us {
+					width: 324px;
+					height: 70px;
+					line-height: 70px;
+					background-color: #fff;
+					color: #0e0d32;
+					font-size: 36px;
+					border-radius: 2px;
+					box-shadow: 0 0 0 3px #0e0d32;
+
+					.text-box {
+						margin: 0 auto;
+						width: 204px;
+						height: 36px;
+						display: flex;
+						justify-content: space-between;
+					}
+				}
+				img {
+					width: 288px;
+					height: 162px;
+					position: absolute;
+					right: -30px;
+					top: -36px;
+				}
+			}
+			.input-form {
+				margin-top: 59px;
+				width: 804px;
+				height: 190px;
+				opacity: 0;
+
+				animation-duration: 1s; //动画持续时间
+				animation-delay: 0.8s; //动画延迟时间
+				animation-iteration-count: 1; //动画执行次数
+
+				.top {
+					font-size: 17px;
+
+					.name {
+						width: 173px;
+						height: 58px;
+						border-radius: 9px;
+						box-shadow: 6px 5px 0 -2px #0e0d32;
+						margin-right: 49px;
+						text-indent: 8px;
+					}
+					.email {
+						width: 282px;
+						height: 58px;
+						border-radius: 9px;
+						box-shadow: 6px 5px 0 -2px #0e0d32;
+						text-indent: 8px;
+					}
+					input:focus {
+						outline: none;
+					}
+				}
+				.bottom {
+					margin-top: 30px;
+					.message {
+						width: 504px;
+						height: 100px;
+						border-radius: 9px;
+						box-shadow: 6px 6px 0 -2px #0e0d32;
+						text-indent: 8px;
+						font-size: 17px;
+					}
+				}
+			}
+			.button-box {
+				opacity: 0;
+				.send-mesage {
+					width: 160px;
+					height: 58px;
+					margin-top: 42px;
+					border-radius: 3px;
+					box-shadow: 6px 6px 0 -2px #0e0d32;
+					background-color: #e9c619;
+					font-size: 23px;
+				}
+				animation-duration: 1s; //动画持续时间
+				animation-delay: 0.8s; //动画延迟时间
+				animation-iteration-count: 1; //动画执行次数
+			}
+		}
+		.right {
+			margin-left: 45px;
+			width: 716px;
+			height: 193px;
+			display: flex;
+			justify-content: space-between;
+			opacity: 0;
+
+			animation-duration: 1s; //动画持续时间
+			animation-delay: 0.8s; //动画延迟时间
+			animation-iteration-count: 1; //动画执行次数
+			.call-info {
+				.tel-phone {
+					margin-top: 25px;
+					img {
+						width: 26px;
+						height: 20px;
+					}
+				}
+				.email {
+					margin-top: 35px;
+					img {
+						width: 32px;
+						height: 25px;
+					}
+				}
+				.address {
+					display: flex;
+					margin-top: 37px;
+					width: 235px;
+					img {
+						width: 19px;
+						height: 25px;
+					}
+					.text {
+						display: inline-block;
+					}
+				}
+				.tel-phone .text,
+				.email .text,
+				.address .text {
+					margin-left: 23px;
+					color: #fff;
+					font-size: 16px;
+				}
+				.tel-phone .img-box,
+				.email .img-box,
+				.address .img-box {
+					display: inline-block;
+					width: 32px;
+					height: 25px;
+				}
+			}
+			.qr-code {
+				width: 373px;
+				height: 154px;
+				display: flex;
+				justify-content: space-between;
+				img {
+					width: 154px;
+					height: 154px;
+				}
+			}
+		}
+	}
+	.company-info {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		width: 100vw;
+		height: 19px;
+		font-size: 16px;
+		color: #fff;
+		margin-bottom: 202px;
+	}
+	.swim-img {
+		position: absolute;
+		right: 10%;
+		bottom: 0;
+		img {
+			width: 768px;
+			height: 432px;
+		}
+	}
+}
+.page2 {
+	position: relative;
+	background: url(../images/新闻bg.jpg) no-repeat 100% 100%/100% 100% fixed;
+	.title {
+		position: relative;
+		width: 303px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+		opacity: 0;
+
+		.text-1 {
+			width: 267px;
+			line-height: 44px;
+			background-color: #0e0d32;
+			color: #fff;
+			font-size: 23px;
+		}
+		.text-2 {
+			width: 324px;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+			color: #0e0d32;
+			font-size: 36px;
+			border-radius: 2px;
+			box-shadow: 0 0 0 3px #0e0d32;
+
+			.text-box {
+				width: 190px;
+				height: 33px;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+		}
+		img {
+			position: absolute;
+			right: -134px;
+			top: -36px;
+			width: 288px;
+			height: 162px;
+		}
+	}
+	.content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.left-box {
+			height: 343px;
+			background: url(../images/product-miaobian.png) no-repeat 100% 100%/100%
+				100%;
+			opacity: 0;
+
+			.left {
+				width: 610px;
+				height: 331px;
+				padding: 30px 30px 26px;
+				position: relative;
+				left: 0;
+				top: 0;
+				.left-title {
+					font-size: 22px;
+					line-height: 22px;
+				}
+				.left-content {
+					margin-top: 30px;
+					font-size: 16px;
+					height: 45px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+				}
+				img {
+					width: 547px;
+					height: 160px;
+					margin-top: 20px;
+				}
+			}
+		}
+		.right {
+			width: 626px;
+			height: 345px;
+			opacity: 0;
+			margin-top: 56px;
+			.item {
+				width: 626px;
+				height: 138px;
+				display: flex;
+				.outline-box1 {
+					width: 141px;
+					height: 129px;
+					background: url(../images/pink-miaobain.png) no-repeat 100%
+						100%/100% 100%;
+					.outline {
+						width: 132px;
+						height: 120px;
+						.year {
+							margin-top: 30px;
+							margin-left: 21px;
+							font-size: 20px;
+						}
+						.date {
+							margin-top: 24px;
+							margin-left: 21px;
+							height: 29px;
+							line-height: 29px;
+							font-size: 36px;
+						}
+					}
+				}
+			}
+			.text {
+				margin-left: 32px;
+				.text-title {
+					margin-top: 20px;
+					font-size: 24px;
+				}
+				.text-content {
+					width: 447px;
+					height: 40px;
+					margin-top: 33px;
+					font-size: 16px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+				}
+			}
+			.item2 {
+				display: none;
+				margin-top: 69px;
+				.outline-box2 {
+					width: 141px;
+					height: 129px;
+					background: url(../images/yellow-miaobian.png) no-repeat
+						100% 100%/100% 100%;
+					.outline {
+						width: 132px;
+						height: 120px;
+						.year {
+							margin-top: 30px;
+							margin-left: 21px;
+							font-size: 20px;
+						}
+						.date {
+							margin-top: 24px;
+							margin-left: 21px;
+							height: 29px;
+							line-height: 29px;
+							font-size: 36px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.ride-a-bike {
+		display: flex;
+		justify-content: flex-end;
+		img {
+			width: 576px;
+			height: 324px;
+		}
+	}
+	/* 半透明的遮罩层 */
+	#news-overlay {
+		background-color: #000;
+		filter: alpha(opacity=50);
+		/* IE的透明度 */
+		opacity: 0.5;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		// width: 100vw;
+		// height: 100vh;
+		z-index: 100;
+		/* 此处的图层要大于页面 */
+		display: none;
+	}
+	.news-popup {
+		height: 700px;
+		overflow: scroll;
+		overflow-x: hidden;
+		filter: alpha(opacity=100);
+		/* IE的透明度 */
+		opacity: 1;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 105;
+		/* 此处的图层要大于页面 */
+		display: none;
+
+		.content-text {
+			position: relative;
+			background: url('../images/new-bg.png') no-repeat no-repeat 100%
+				100%/100% 100%;
+			padding-bottom: 10px;
+			.title-text {
+				width: 992px;
+				height: 34px;
+				margin: 100px auto 0;
+				font-size: 34px;
+				color: #000000;
+			}
+			.date {
+				width: 120px;
+				height: 34px;
+				line-height: 34px;
+				margin: 40px auto 49px;
+				border: 1px solid black;
+				font-size: 18px;
+				text-align: center;
+			}
+			.text {
+				width: 1058px;
+				margin: 0 auto;
+				.text-top,
+				.text-bottom {
+					width: 1058px;
+					font-size: 16px;
+					color: #000000;
+				}
+				.text-top {
+					padding-bottom: 20px;
+				}
+				.text-bottom {
+					padding-top: 20px;
+				}
+				.text-img {
+					margin: 0 auto;
+					background-color: #fff;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+		.close-box {
+			width: 74px;
+			height: 74px;
+			position: absolute;
+			right: -39px;
+			top: -39px;
+			background-color: #000000;
+			border-radius: 50%;
+		}
+
+		video {
+			width: 1025px;
+			height: 516px;
+		}
+		.pre-next-box {
+			width: 100vw;
+			position: relative;
+			img {
+				position: absolute;
+				width: 69px;
+				height: 149px;
+			}
+			.left-img {
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.right-img {
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	.news-pre-next-box {
+		width: 100vw;
+		height: 0;
+		filter: alpha(opacity=100);
+		/* IE的透明度 */
+		opacity: 1;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 103;
+		/* 此处的图层要大于页面 */
+		display: none;
+
+		img {
+			position: absolute;
+			width: 69px;
+			height: 149px;
+		}
+		.left-img {
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.right-img {
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}
+.page3 {
+	background: url(../images/案例BG.jpg) no-repeat 100% 100%/100% 100% fixed;
+	position: relative;
+	.navbar-default {
+		border: none;
+	}
+	.title {
+		position: relative;
+		width: 303px;
+		height: 115px;
+		margin: 0 auto;
+		text-align: center;
+		opacity: 0;
+		.text-1 {
+			width: 267px;
+			line-height: 44px;
+			background-color: #0e0d32;
+			color: #fff;
+			font-size: 23px;
+		}
+		.text-2 {
+			width: 324px;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+			color: #0e0d32;
+			font-size: 36px;
+			border-radius: 2px;
+			box-shadow: 0 0 0 3px #0e0d32;
+
+			.text-box {
+				width: 190px;
+				height: 33px;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+		}
+		img {
+			position: absolute;
+			right: -134px;
+			top: -36px;
+			width: 288px;
+			height: 162px;
+		}
+	}
+	.card-box {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-top: 49px;
+		height: 433px;
+		.item {
+			box-shadow: 10px 8px 0 1px #0e0d32;
+			border-radius: 3px;
+			opacity: 0;
+		}
+		.item2 {
+			display: none;
+			margin-left: 49px;
+		}
+		.item:nth-child(2n-1) .dot-box .dot {
+			background-color: #257dff;
+		}
+		.item:nth-child(2n) .dot-box .dot {
+			background-color: #79abff;
+		}
+		.item:nth-child(2n + 1) .dot-box .dot {
+			background-color: #ffc900;
+		}
+		.item:nth-child(4n) .dot-box .dot {
+			background-color: #fca1c3;
+		}
+
+		.bottom {
+			width: 606px;
+			height: 374px;
+			margin: 0 -1px -1px 0;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	// 公共样式圆点
+	.top {
+		line-height: 59px;
+		display: flex;
+		background-color: #fff;
+		.dot-box {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 80px;
+			.dot {
+				width: 15px;
+				height: 15px;
+				border-radius: 8px;
+			}
+		}
+		.text {
+			font-size: 24px;
+			color: #110e31;
+			margin-left: 10px;
+		}
+	}
+	.fly {
+		position: absolute;
+		bottom: 0;
+		left: 10%;
+		img {
+			width: 579px;
+			height: 324px;
+		}
+	}
+	/* 半透明的遮罩层 */
+	#case-overlay {
+		background-color: #000;
+		filter: alpha(opacity=50);
+		/* IE的透明度 */
+		opacity: 0.5;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: auto;
+		width: 100vw;
+		height: 100vh;
+
+		// width: 100vw;
+		// height: 100vh;
+		z-index: 100;
+		/* 此处的图层要大于页面 */
+		display: none;
+	}
+	.case-popup {
+		height: 849px;
+		filter: alpha(opacity=100);
+		/* IE的透明度 */
+		opacity: 1;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 102;
+		/* 此处的图层要大于页面 */
+		display: none;
+
+		.bottom {
+			position: relative;
+			height: 798px;
+			background: url('../images/case-card-bg.png') no-repeat no-repeat
+				100% 100%/100% 100%;
+			overflow: hidden;
+			.top-border {
+				position: relative;
+				padding: 16px;
+				border: 2px solid #171335;
+				margin: 48px auto 0 auto;
+				height: 549px;
+				width: 1057px;
+				background-color: #fff;
+			}
+			.play-btn {
+				width: 210px;
+				height: 102px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -111%);
+				z-index: 103;
+			}
+			.bottom-text {
+				display: flex;
+				align-items: center;
+				height: 90px;
+				white-space: wrap;
+				width: 1057px;
+				font-size: 18px;
+				margin: 37px auto 0;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 3;
+				overflow: hidden;
+			}
+		}
+		.close-box {
+			width: 74px;
+			height: 74px;
+			position: absolute;
+			right: -39px;
+			top: -39px;
+			background-color: #000000;
+			border-radius: 50%;
+		}
+
+		video {
+			width: 1025px;
+			height: 516px;
+		}
+	}
+	.pre-next-box {
+		width: 100vw;
+		height: 500px;
+		filter: alpha(opacity=100);
+		/* IE的透明度 */
+		opacity: 1;
+		/* 透明度 */
+		display: none;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		z-index: 101;
+		/* 此处的图层要大于页面 */
+		display: none;
+
+		img {
+			position: absolute;
+			width: 69px;
+			height: 149px;
+		}
+		.left-img {
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		.right-img {
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}
+.page4 {
+	position: relative;
+	background: url(../images/产品BG.jpg) no-repeat 100% 100%/100% 100% fixed;
+	background-size: cover;
+	.title {
+		position: relative;
+		width: 303px;
+		margin: 84px auto 0;
+		text-align: center;
+
+		.text-1 {
+			width: 267px;
+			line-height: 44px;
+			background-color: #0e0d32;
+			color: #fff;
+			font-size: 23px;
+		}
+		.text-2 {
+			width: 324px;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+			color: #0e0d32;
+			font-size: 36px;
+			border-radius: 2px;
+			box-shadow: 0 0 0 3px #0e0d32;
+
+			.text-box {
+				width: 190px;
+				height: 33px;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+		}
+		img {
+			position: absolute;
+			right: -134px;
+			top: -36px;
+			width: 288px;
+			height: 162px;
+		}
+	}
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		.item {
+			margin-top: 40px;
+			.card {
+				width: 278px;
+				height: 376px;
+				background: url('../images/miaobian.png') no-repeat 100% 100%/100%
+					100%;
+				.pic-box {
+					width: 250px;
+					height: 350px;
+					position: relative;
+					left: 4px;
+					top: 0;
+
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+			.text {
+				width: 264px;
+				height: 62px;
+				line-height: 62px;
+				text-align: center;
+				background: url('../images/product-text-border.png') no-repeat
+					100% 100%/100% 100%;
+				font-size: 22px;
+			}
+		}
+		.item:nth-child(3) {
+			display: none;
+		}
+	}
+	.bg-box {
+		position: absolute;
+		bottom: 50%;
+		left: 0;
+		display: flex;
+		justify-content: space-between;
+
+		.cloud1 {
+			// position: absolute;
+			// animation-name: cloud-move-left;
+			// animation-duration: 6s; //动画持续时间
+			// // animation-delay: 1s; //动画延迟时间
+			// animation-iteration-count: 2; //动画执行次数
+			// animation-fill-mode: backwards;
+			// animation-direction: alternate;
+		}
+		.cloud2 {
+			position: absolute;
+			right: 0;
+			animation-name: cloud-move-right;
+			animation-duration: 6s; //动画持续时间
+			// animation-delay: 1s; //动画延迟时间
+			animation-iteration-count: 2; //动画执行次数
+			animation-fill-mode: backwards;
+			animation-direction: alternate;
+			img {
+				width: 100%;
+				height: 100px;
+			}
+		}
+		@keyframes cloud-move-left {
+			0% {
+				left: 0%;
+			}
+			100% {
+				left: -20%;
+			}
+		}
+		@keyframes cloud-move-right {
+			0% {
+				right: 0%;
+			}
+			100% {
+				right: -20%;
+			}
+		}
+	}
+	.cloud-kunkun {
+		position: absolute;
+		bottom: 20%;
+		right: 24%;
+		z-index: 3;
+		img {
+			width: 585px;
+			height: 249px;
+		}
+	}
+}
+// // 大屏幕下
+// @media screen and (min-width: 1280px) {
+// 	body {
+// 		.page4 {
+// 			content {
+// 				.item:nth-child(3) {
+// 					display: block;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// 大屏幕下
+@media screen and (min-width: 1200px) {
+	body {
+		.page4 {
+			background: url(../images/产品BG.jpg) no-repeat 100% 100% fixed;
+			background-size: cover;
+			.content {
+				.item:nth-child(3) {
+					display: block;
+				}
+			}
+			.cloud-kunkun {
+				bottom: 0;
+				margin-top: 100px;
+			}
+		}
+		.page3 {
+			.card-box {
+				.item2:nth-child(3) {
+					display: block;
+				}
+			}
+		}
+		.page2 {
+			.content {
+				.right {
+					margin-top: 0;
+				}
+				.item:nth-child(2) {
+					display: block;
+				}
+			}
+		}
+	}
+}

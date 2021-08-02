@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'YouSheBiaoTiHei';
+  src: url('../字体/优设标题黑.ttf');
+}
+@font-face {
+  font-family: 'YouSheBiaoTiHei';
+  src: url('../字体/优设标题黑.ttf');
+}
+@font-face {
+  font-family: 'MyFontName';
+  src: url(../字体/阿里巴巴普惠体H.ttf);
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1280px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: none;
+  display: fixed;
+  top: 0;
+}
+.header .navbar-brand {
+  height: 102px;
+}
+.header .navbar-brand img {
+  width: 160px;
+  height: 65px;
+}
+.header .navbar-collapse {
+  padding-right: 0;
+}
+.header .navbar-nav li {
+  height: 102px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #000000;
+}
+.header .navbar-toggle {
+  margin-right: 0;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #110e31;
+}
+.navbar-toggle {
+  background-color: #110e31;
+  width: 90px;
+  height: 90px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-toggle .icon-bar {
+  display: inline-block;
+  width: 40px;
+  height: 5px;
+  margin: 12px auto 0;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-toggle {
+  border-radius: 0;
+}

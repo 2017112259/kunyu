@@ -1,0 +1,344 @@
+body {
+	background: url(../images/联系我们BG.png) no-repeat 100% 100% fixed;
+	background-size: 100vw 100vh;
+	.header {
+		display: fixed !important;
+	}
+	.navbar-default {
+		border: none;
+	}
+	.menu {
+		position: fixed;
+		z-index: 3;
+	}
+
+	.title-box {
+		background: url(../images/about-us-miaobian.png) no-repeat 100% 100%;
+		background-size: 100% 100%;
+		.title {
+			display: flex;
+			flex-wrap: wrap;
+			.left {
+				height: 248px;
+				background-color: #79abff;
+				padding: 10px;
+				margin-top: 60px;
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.right {
+				margin-top: 41px;
+				padding-bottom: 30px;
+				.title {
+					width: 279px;
+					height: 74px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.content {
+					margin-top: 38px;
+					font-size: 18px;
+					text-indent: 2em;
+				}
+			}
+		}
+	}
+
+	.card {
+		display: flex;
+		margin-top: 100px;
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+		.item {
+			margin-top: 50px;
+			height: 261px;
+			background: url(../images/about-us-text.png) no-repeat 100% 100%;
+			background-size: 100% 100%;
+
+			.title {
+				width: 141px;
+				height: 27px;
+				margin: 50px auto 0;
+			}
+			.title:nth-child(1) {
+				background: url(../images/鲲鱼团队.png) no-repeat 100% 100%;
+				background-size: 100% 100%;
+			}
+			.title:nth-child(2) {
+				background: url(../images/鲲鱼愿景.png) no-repeat 100% 100%;
+				background-size: 100% 100%;
+			}
+			.title:nth-child(3) {
+				background: url(../images/鲲鱼精神.png) no-repeat 100% 100%;
+				background-size: 100% 100%;
+			}
+
+			.content {
+				line-height: 27px;
+				margin: 48px auto 0;
+				font-size: 16px;
+			}
+		}
+		.item1 {
+			margin-top: -70px;
+		}
+		.item1 .content {
+			width: 192px;
+		}
+		.item2 .content {
+			width: 161px;
+		}
+		.item3 .content {
+			width: 192px;
+		}
+	}
+}
+
+@media screen and(max-width: 767px) {
+	body {
+		.header {
+			margin-bottom: 0;
+			background-color: transparent;
+			border-bottom: none;
+			display: fixed;
+			top: 0;
+			.navbar-brand {
+				height: 1.36rem;
+				img {
+					width: 2.133333rem;
+					height: 0.866667rem;
+				}
+			}
+			.navbar-collapse {
+				padding-right: 0;
+			}
+			.navbar-nav {
+				li {
+					height: 1.36rem;
+					display: flex;
+					align-items: center;
+					font-size: 0.24rem;
+					color: #000000;
+				}
+			}
+			.navbar-toggle {
+				margin-right: 0;
+			}
+		}
+		.navbar-default .navbar-toggle:focus,
+		.navbar-default .navbar-toggle:hover {
+			background-color: #110e31;
+		}
+		.navbar-toggle {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: #110e31;
+			width: 1.2rem;
+			height: 1.2rem;
+			margin-top: 0;
+			margin-bottom: 0;
+			.icon-bar {
+				display: inline-block;
+				width: 0.533333rem;
+				height: 0.066667rem;
+				margin: 0 auto 0;
+			}
+			.icon-bar:nth-child(1) {
+				margin-top: 4px;
+			}
+		}
+		.navbar-default .navbar-toggle {
+			border: none;
+		}
+		.navbar-toggle {
+			border-radius: 0;
+		}
+
+		background-position: 0% 0%;
+		background-size: 100% 17.786667rem;
+
+		.navbar-toggle {
+			width: 1.2rem;
+			height: 1.2rem;
+		}
+		.title-box {
+			width: 8.88rem;
+			height: 14.72rem;
+			padding: 0;
+
+			margin: 0.52rem auto 1.546667rem;
+			float: none;
+			.title {
+				width: 8.72rem;
+				height: 14.56rem;
+				display: block;
+				overflow: hidden;
+				.left {
+					width: 7.466667rem;
+					height: 4.28rem;
+					margin: 0.666667rem auto 0.653333rem;
+					float: none;
+				}
+				.right {
+					float: none;
+					width: 7.293333rem;
+					height: 8.266667rem;
+					margin: 0 auto;
+					padding: 0;
+
+					.title {
+						width: 4.613333rem;
+						height: 1.253333rem;
+					}
+					.content {
+						width: 7.293333rem;
+						height: 6.373333rem;
+						font-family: NotoSansHans-Regular;
+						font-size: 0.426667rem;
+						font-weight: normal;
+						font-stretch: normal;
+						line-height: 0.76rem;
+						letter-spacing: 0;
+						color: #192035;
+						font-size: 0.426667rem;
+						margin-top: 0.506667rem;
+						padding: 0;
+					}
+				}
+			}
+		}
+		.card {
+			margin-top: -1.786667rem;
+			.item {
+				width: 6.84rem;
+				height: 4.213333rem;
+				.title {
+					width: 3.146667rem;
+					height: 0.586667rem;
+					margin: 0.666667rem auto 0;
+				}
+				.content {
+					margin: 0.64rem auto 0;
+				}
+				margin: 0.64rem auto 0;
+			}
+			.item:nth-child(1) {
+				.content {
+					width: 5.466667rem;
+					height: 1.666667rem;
+					font-family: NotoSansHans-Regular;
+					font-size: 0.373333rem;
+					font-weight: normal;
+					font-stretch: normal;
+					line-height: 0.64rem;
+					letter-spacing: 0.04rem;
+					color: #333333;
+				}
+			}
+			.item:nth-child(2) {
+				.content {
+					width: 3.88rem;
+					height: 1.04rem;
+					font-family: NotoSansHans-Regular;
+					font-size: 0.346667rem;
+					font-weight: normal;
+					font-stretch: normal;
+					line-height: 0.64rem;
+					letter-spacing: 0.04rem;
+					color: #333333;
+				}
+			}
+			.item:nth-child(3) {
+				.content {
+					width: 4.48rem;
+					height: 0.386667rem;
+					font-family: NotoSansHans-Regular;
+					font-size: 0.333333rem;
+					font-weight: normal;
+					font-stretch: normal;
+					line-height: 0.426667rem;
+					letter-spacing: 0.04rem;
+					color: #333333;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 970px) {
+	body {
+		.card {
+			padding-bottom: 30px;
+			display: flex;
+			margin-top: 59px;
+			flex-wrap: wrap;
+			background: transparent;
+			.item {
+				height: auto;
+				margin-bottom: 20px;
+				.content {
+					width: auto;
+					margin: 20px 0;
+					text-align: center;
+				}
+			}
+			.item1 {
+				margin-top: 50px;
+				.content {
+					width: auto;
+				}
+			}
+		}
+		.title-box {
+			.title {
+				.right {
+					.title {
+						margin: 0 auto;
+					}
+					.content {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 970px) and (max-width: 1280px) {
+	body {
+		.title-box {
+			margin: 0 auto;
+			width: 800px;
+			float: none;
+		}
+		.card {
+			.item1 {
+				margin-top: 50px;
+			}
+			width: 800px;
+			margin: 0 auto;
+		}
+	}
+}
+// 大屏幕下
+@media screen and (min-width: 1281px) {
+	body {
+		height: 100vh;
+		.card {
+			display: flex;
+			justify-content: space-between;
+			background-color: transparent;
+			.item {
+				width: 396px;
+				height: 261px;
+				margin-left: 0;
+			}
+			.item1 {
+				margin-top: 50px;
+			}
+		}
+	}
+}

@@ -1,0 +1,382 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+}
+.maindiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.radiodiv {
+	position: absolute;
+	bottom: 30%;
+	right: 20px;
+	display: inline-table;
+	text-align: right;
+}
+.contentdiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #999999;
+	background-color: #333333;
+}
+#contentdiv1 {
+	top: 0%;
+	background: url(../images/产品BG.jpg) no-repeat 100% 100%/100% 100% fixed;
+}
+#contentdiv2 {
+	top: 100%;
+	background: url(../images/案例BG.jpg) no-repeat 100% 100%/100% 100% fixed;
+}
+#contentdiv3 {
+	top: 200%;
+	background: url(../images/新闻bg.jpg) no-repeat 100% 100%/100% 100% fixed;
+	.title {
+		position: relative;
+		width: 303px;
+		height: 200px;
+		margin: 0 auto;
+		text-align: center;
+
+		.text-1 {
+			width: 267px;
+			line-height: 44px;
+			background-color: #0e0d32;
+			color: #fff;
+			font-size: 23px;
+		}
+		.text-2 {
+			width: 324px;
+			height: 70px;
+			line-height: 70px;
+			background-color: #fff;
+			color: #0e0d32;
+			font-size: 36px;
+			border-radius: 2px;
+			box-shadow: 0 0 0 3px #0e0d32;
+
+			.text-box {
+				width: 190px;
+				height: 33px;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 auto;
+				font-weight: bold;
+			}
+		}
+		img {
+			position: absolute;
+			right: -134px;
+			top: -36px;
+			width: 288px;
+			height: 162px;
+		}
+	}
+	.content {
+		display: flex;
+		justify-content: space-between;
+		.left-box {
+			width: 607px;
+			height: 343px;
+			background: url(../images/product-miaobian.png) no-repeat 100% 100%/100%
+				100%;
+			.left {
+				width: 610px;
+				height: 331px;
+				padding: 30px 30px 26px;
+				position: relative;
+				left: 0;
+				top: 0;
+				.left-title {
+					font-size: 22px;
+					line-height: 22px;
+				}
+				.left-content {
+					margin-top: 30px;
+					font-size: 16px;
+					height: 45px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+				}
+				img {
+					width: 547px;
+					height: 160px;
+					margin-top: 20px;
+				}
+			}
+		}
+		.right {
+			width: 626px;
+			height: 345px;
+
+			.item {
+				width: 626px;
+				height: 138px;
+				display: flex;
+				.outline-box1 {
+					width: 141px;
+					height: 129px;
+					background: url(../images/pink-miaobain.png) no-repeat 100%
+						100%/100% 100%;
+					.outline {
+						width: 132px;
+						height: 120px;
+						.year {
+							margin-top: 30px;
+							margin-left: 21px;
+							font-size: 20px;
+						}
+						.date {
+							margin-top: 24px;
+							margin-left: 21px;
+							height: 29px;
+							line-height: 29px;
+							font-size: 36px;
+						}
+					}
+				}
+			}
+			.text {
+				margin-left: 32px;
+				.text-title {
+					margin-top: 20px;
+					font-size: 24px;
+				}
+				.text-content {
+					width: 447px;
+					height: 40px;
+					margin-top: 33px;
+					font-size: 16px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					overflow: hidden;
+				}
+			}
+			.item2 {
+				margin-top: 69px;
+				.outline-box2 {
+					width: 141px;
+					height: 129px;
+					background: url(../images/yellow-miaobian.png) no-repeat
+						100% 100%/100% 100%;
+					.outline {
+						width: 132px;
+						height: 120px;
+						.year {
+							margin-top: 30px;
+							margin-left: 21px;
+							font-size: 20px;
+						}
+						.date {
+							margin-top: 24px;
+							margin-left: 21px;
+							height: 29px;
+							line-height: 29px;
+							font-size: 36px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.ride-a-bike {
+		width: 576px;
+		height: 324px;
+		position: relative;
+		left: 10px;
+		top: 10px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+#contentdiv4 {
+	top: 300%;
+	background: url(../images/联系我们BG.png) no-repeat 100% 100%/100% 100%
+		fixed;
+	.about-us {
+		height: 100vh;
+		display: flex;
+
+		.left {
+			margin-top: 118px;
+			width: 504px;
+			height: 500px;
+			.contact-us {
+				position: relative;
+				text-align: center;
+
+				animation-duration: 1s; //动画持续时间
+				animation-delay: 0.4s; //动画延迟时间
+				animation-iteration-count: 1; //动画执行次数
+				.action {
+					width: 267px;
+					line-height: 44px;
+					background-color: #0e0d32;
+					color: #fff;
+					font-size: 23px;
+				}
+				.call-us {
+					width: 324px;
+					height: 70px;
+					line-height: 70px;
+					background-color: #fff;
+					color: #0e0d32;
+					font-size: 36px;
+					border-radius: 2px;
+					box-shadow: 0 0 0 3px #0e0d32;
+
+					.text-box {
+						margin: 0 auto;
+						width: 204px;
+						height: 36px;
+						display: flex;
+						justify-content: space-between;
+					}
+				}
+				img {
+					width: 288px;
+					height: 162px;
+					position: absolute;
+					right: -30px;
+					top: -36px;
+				}
+			}
+			.input-form {
+				margin-top: 59px;
+				width: 804px;
+				height: 190px;
+
+				animation-duration: 1s; //动画持续时间
+				animation-delay: 0.8s; //动画延迟时间
+				animation-iteration-count: 1; //动画执行次数
+
+				.top {
+					font-size: 17px;
+
+					.name {
+						width: 173px;
+						height: 58px;
+						border-radius: 9px;
+						box-shadow: 6px 5px 0 -2px #0e0d32;
+						margin-right: 49px;
+						text-indent: 8px;
+					}
+					.email {
+						width: 282px;
+						height: 58px;
+						border-radius: 9px;
+						box-shadow: 6px 5px 0 -2px #0e0d32;
+						text-indent: 8px;
+					}
+				}
+				.bottom {
+					margin-top: 30px;
+					.message {
+						width: 504px;
+						height: 100px;
+						border-radius: 9px;
+						box-shadow: 6px 6px 0 -2px #0e0d32;
+						text-indent: 8px;
+						font-size: 17px;
+					}
+				}
+			}
+			.send-mesage {
+				width: 160px;
+				height: 58px;
+				margin-top: 42px;
+				border-radius: 3px;
+				box-shadow: 6px 6px 0 -2px #0e0d32;
+				background-color: #e9c619;
+				font-size: 23px;
+			}
+		}
+		.right {
+			margin-top: 262px;
+			margin-left: 45px;
+			width: 716px;
+			height: 193px;
+			display: flex;
+			justify-content: space-between;
+
+			animation-duration: 1s; //动画持续时间
+			animation-delay: 0.8s; //动画延迟时间
+			animation-iteration-count: 1; //动画执行次数
+			.call-info {
+				.tel-phone {
+					margin-top: 25px;
+					img {
+						width: 26px;
+						height: 20px;
+					}
+				}
+				.email {
+					margin-top: 35px;
+					img {
+						width: 32px;
+						height: 25px;
+					}
+				}
+				.address {
+					display: flex;
+					margin-top: 37px;
+					width: 235px;
+					img {
+						width: 19px;
+						height: 25px;
+					}
+					.text {
+						display: inline-block;
+					}
+				}
+				.tel-phone .text,
+				.email .text,
+				.address .text {
+					margin-left: 23px;
+					color: #fff;
+					font-size: 16px;
+				}
+				.tel-phone .img-box,
+				.email .img-box,
+				.address .img-box {
+					display: inline-block;
+					width: 32px;
+					height: 25px;
+				}
+			}
+			.qr-code {
+				width: 373px;
+				height: 154px;
+				display: flex;
+				justify-content: space-between;
+				img {
+					width: 154px;
+					height: 154px;
+				}
+			}
+		}
+	}
+	.swim {
+		width: 768px;
+		height: 432px;
+		position: absolute;
+		right: 0;
+		bottom: 0px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+// #contentdiv5 {
+// 	top: 400%;
+// 	background-color: #cccccc;
+// }

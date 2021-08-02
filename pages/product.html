@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>产品服务</title>
+    <script src="../lib-flexible-2.0/index.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="../less/product.less">
+    <!-- <link rel="stylesheet" href="../css/product.css"> -->
+    <link rel="stylesheet/less" href="../less/common.less">
+    <!-- <link rel="stylesheet" href="../css/common.css"> -->
+    <link rel="stylesheet" href="../animate/animate.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container ">
+        <div class="row">
+            <!-- header -->
+            <nav class="navbar navbar-default header">
+                <div class="container ">
+                    <div class="row">
+                        <div class="navbar-header">
+                            <span type="button" class="menu">
+                            </span>
+                            <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../pages/product.html">产品服务</a></li>
+                                <li><a href="../pages/case.html">案例中心</a></li>
+                                <li><a href="../pages/news-center2.html">资讯中心</a></li>
+                                <li><a href="../pages/about-us.html">关于鲲鱼</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row product">
+            <div class="title  animated fadeInLeft  col-sm-offset-0 col-lg-4 col-lg-offset-4">
+                <div class="text-1">鲲鱼动漫贴心</div>
+                <div class="text-2">
+                    <div class="text-box">
+                        <span>产</span>
+                        <span>品</span>
+                        <span>服</span>
+                        <span>务</span>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <img src="../images/鲲鲲比心.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row product">
+            <div class=" container dynamicLoad" dynamicLoad>
+                <div class="row content col-xs-12 ">
+                    <div class="item animated fadeInUp">
+                        <div class="card ">
+                            <div class="pic-box">
+                                <img src="../images/product-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <div class="text">
+                                二维动画
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item animated fadeInDown">
+                        <div class="card">
+                            <div class="pic-box">
+                                <img src="../images/product-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            二维动画
+                        </div>
+                    </div>
+                    <div class="item animated fadeInUp">
+                        <div class="card">
+                            <div class="pic-box">
+                                <img src="../images/product-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            二维动画
+                        </div>
+                    </div>
+                    <div class="item animated fadeInDown">
+                        <div class="card">
+                            <div class="pic-box">
+                                <img src="../images/product-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text">
+                            二维动画
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap-3.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.1/less.js"></script>
+    <script type="text/javascript">
+        //小屏幕下的导航条折叠
+        if ($(window).width() < 768) {
+            //点击导航链接之后，把导航选项折叠起来
+            $(".menu").click(function() {
+                $("#navbar").collapse('hide');
+                window.open('../pages/navbar-page.html', '_self')
+
+            });
+        }
+        $(document).ready(function() {
+            var range = 50; //距下边界长度/单位px
+            var elemt = 500; //插入元素高度/单位px
+            var maxnum = 20; //设置加载最多次数
+            var num = 1;
+            var totalheight = 0;
+            var main = $(".dynamicLoad .content"); //主体元素
+            $(window).scroll(function() {
+                var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+
+                console.log("滚动条到顶部的垂直高度: " + $(document).scrollTop());
+                console.log("页面的文档高度 ：" + $(document).height());
+                console.log('浏览器的高度：' + $(window).height());
+
+                totalheight = parseFloat($(window).height()) + parseFloat(srollPos);
+                if (($(document).height() - range) <= totalheight && num != maxnum) {
+                    console.log('123123');
+
+                    main.append(`                        <div class="item animated fadeInUp">
+                            <div class="card ">
+                                <div class="pic-box">
+                                    <img src="../images/product-1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                二维动画
+                            </div>
+                        </div>
+                        <div class="item animated fadeInDown">
+                            <div class="card">
+                                <div class="pic-box">
+                                    <img src="../images/product-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                二维动画
+                            </div>
+                        </div>
+                        <div class="item animated fadeInUp">
+                            <div class="card">
+                                <div class="pic-box">
+                                    <img src="../images/product-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                二维动画
+                            </div>
+                        </div>
+                        <div class="item animated fadeInDown">
+                            <div class="card">
+                                <div class="pic-box">
+                                    <img src="../images/product-4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="text">
+                                二维动画
+                            </div>
+                        </div>`);
+                    num++;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

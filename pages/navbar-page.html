@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>关于我们</title>
+    <script src="../lib-flexible-2.0/index.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet/less" href="../less/navbar-page.less">
+    <!-- <link rel="stylesheet" href="../css/navbar-page.css"> -->
+    <link rel="stylesheet/less" href="../less/common.less">
+    <!-- <link rel="stylesheet" href="../css/common.css"> -->
+    <link rel="stylesheet" href="../animate/animate.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-default header">
+        <div class="container ">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed right-top-icon-change" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <!-- <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> -->
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../pages/product.html">产品服务</a></li>
+                        <li><a href="../pages/case.html">案例中心</a></li>
+                        <li><a href="../pages/news-center2.html">资讯中心</a></li>
+                        <li><a href="../pages/about-us.html">关于鲲鱼</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <ul class="navbar-box">
+        <a href="../pages/product.html">
+            <li>产品服务</li>
+        </a>
+        <a href="../pages/case.html">
+            <li>案例中心</li>
+        </a>
+        <a href="../pages/news-center2.html">
+            <li>资讯中心</li>
+        </a>
+        <a href="../pages/about-us.html">
+            <li>关于鲲鱼</li>
+        </a>
+    </ul>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../bootstrap-3.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.1/less.js"></script>
+    <script>
+        // 右上角菜单栏按钮
+        window.onload = function() {
+            console.log('1');
+            //小屏幕下的导航条折叠
+            if ($(window).width() < 768) {
+                console.log('2');
+
+                //点击导航链接之后，把导航选项折叠起来
+                // $(".navbar-toggle").click(function() {
+                //     $('.navbar-toggle').removeClass('sr-only')
+                //     $('.navbar-toggle span').removeClass('icon-bar')
+                //     $('.navbar-toggle').addClass('right-top-icon-change')
+                //     console.log('3');
+                $("#navbar").collapse('hide');
+                //     window.open('../pages/navbar-page.html', '_self')
+                // });
+
+            }
+        }
+    </script>
+</body>
+
+</html>

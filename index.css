@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MyFontName';
+    src: url(./font/优设标题黑.ttf);
+}
+
+div {
+    font-size: 20px;
+}
+
+.outer {
+    font-family: MyFontName;
+}

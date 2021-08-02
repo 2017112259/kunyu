@@ -1,0 +1,874 @@
+.page {
+  position: relative;
+}
+.page1 {
+  position: relative;
+  background: url(../images/联系我们BG.png) no-repeat 100% 1% 100%;
+}
+.page1 .header {
+  border: none;
+}
+.page1 .about-us {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page1 .about-us .left {
+  margin-top: 118px;
+  width: 504px;
+  height: 500px;
+}
+.page1 .about-us .left .contact-us {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.4s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .contact-us .action {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page1 .about-us .left .contact-us .call-us {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page1 .about-us .left .contact-us .call-us .text-box {
+  margin: 0 auto;
+  width: 204px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.page1 .about-us .left .contact-us img {
+  width: 288px;
+  height: 162px;
+  position: absolute;
+  right: -30px;
+  top: -36px;
+}
+.page1 .about-us .left .input-form {
+  margin-top: 59px;
+  width: 804px;
+  height: 190px;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .input-form .top {
+  font-size: 17px;
+}
+.page1 .about-us .left .input-form .top .name {
+  width: 173px;
+  height: 58px;
+  border-radius: 9px;
+  box-shadow: 6px 5px 0 -2px #0e0d32;
+  margin-right: 49px;
+  text-indent: 8px;
+}
+.page1 .about-us .left .input-form .top .email {
+  width: 282px;
+  height: 58px;
+  border-radius: 9px;
+  box-shadow: 6px 5px 0 -2px #0e0d32;
+  text-indent: 8px;
+}
+.page1 .about-us .left .input-form .top input:focus {
+  outline: none;
+}
+.page1 .about-us .left .input-form .bottom {
+  margin-top: 30px;
+}
+.page1 .about-us .left .input-form .bottom .message {
+  width: 504px;
+  height: 100px;
+  border-radius: 9px;
+  box-shadow: 6px 6px 0 -2px #0e0d32;
+  text-indent: 8px;
+  font-size: 17px;
+}
+.page1 .about-us .left .button-box {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .left .button-box .send-mesage {
+  width: 160px;
+  height: 58px;
+  margin-top: 42px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 0 -2px #0e0d32;
+  background-color: #e9c619;
+  font-size: 23px;
+}
+.page1 .about-us .right {
+  margin-left: 45px;
+  width: 716px;
+  height: 193px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-delay: 0.8s;
+  animation-iteration-count: 1;
+}
+.page1 .about-us .right .call-info .tel-phone {
+  margin-top: 25px;
+}
+.page1 .about-us .right .call-info .tel-phone img {
+  width: 26px;
+  height: 20px;
+}
+.page1 .about-us .right .call-info .email {
+  margin-top: 35px;
+}
+.page1 .about-us .right .call-info .email img {
+  width: 32px;
+  height: 25px;
+}
+.page1 .about-us .right .call-info .address {
+  display: flex;
+  margin-top: 37px;
+  width: 235px;
+}
+.page1 .about-us .right .call-info .address img {
+  width: 19px;
+  height: 25px;
+}
+.page1 .about-us .right .call-info .address .text {
+  display: inline-block;
+}
+.page1 .about-us .right .call-info .tel-phone .text,
+.page1 .about-us .right .call-info .email .text,
+.page1 .about-us .right .call-info .address .text {
+  margin-left: 23px;
+  color: #fff;
+  font-size: 16px;
+}
+.page1 .about-us .right .call-info .tel-phone .img-box,
+.page1 .about-us .right .call-info .email .img-box,
+.page1 .about-us .right .call-info .address .img-box {
+  display: inline-block;
+  width: 32px;
+  height: 25px;
+}
+.page1 .about-us .right .qr-code {
+  width: 373px;
+  height: 154px;
+  display: flex;
+  justify-content: space-between;
+}
+.page1 .about-us .right .qr-code img {
+  width: 154px;
+  height: 154px;
+}
+.page1 .company-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100vw;
+  height: 19px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 202px;
+}
+.page1 .swim-img {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+.page1 .swim-img img {
+  width: 768px;
+  height: 432px;
+}
+.page2 {
+  position: relative;
+  background: url(../images/新闻bg.jpg) no-repeat 100% 1% 100% fixed;
+  /* 半透明的遮罩层 */
+}
+.page2 .title {
+  position: relative;
+  width: 303px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}
+.page2 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page2 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page2 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page2 .title img {
+  position: absolute;
+  right: -134px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page2 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.page2 .content .left-box {
+  height: 343px;
+  background: url(../images/product-miaobian.png) no-repeat 100% 1% 100%;
+  opacity: 0;
+}
+.page2 .content .left-box .left {
+  width: 610px;
+  height: 331px;
+  padding: 30px 30px 26px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.page2 .content .left-box .left .left-title {
+  font-size: 22px;
+  line-height: 22px;
+}
+.page2 .content .left-box .left .left-content {
+  margin-top: 30px;
+  font-size: 16px;
+  height: 45px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.page2 .content .left-box .left img {
+  width: 547px;
+  height: 160px;
+  margin-top: 20px;
+}
+.page2 .content .right {
+  width: 626px;
+  height: 345px;
+  opacity: 0;
+  margin-top: 56px;
+}
+.page2 .content .right .item {
+  width: 626px;
+  height: 138px;
+  display: flex;
+}
+.page2 .content .right .item .outline-box1 {
+  width: 141px;
+  height: 129px;
+  background: url(../images/pink-miaobain.png) no-repeat 100% 1% 100%;
+}
+.page2 .content .right .item .outline-box1 .outline {
+  width: 132px;
+  height: 120px;
+}
+.page2 .content .right .item .outline-box1 .outline .year {
+  margin-top: 30px;
+  margin-left: 21px;
+  font-size: 20px;
+}
+.page2 .content .right .item .outline-box1 .outline .date {
+  margin-top: 24px;
+  margin-left: 21px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 36px;
+}
+.page2 .content .right .text {
+  margin-left: 32px;
+}
+.page2 .content .right .text .text-title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.page2 .content .right .text .text-content {
+  width: 447px;
+  height: 40px;
+  margin-top: 33px;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.page2 .content .right .item2 {
+  display: none;
+  margin-top: 69px;
+}
+.page2 .content .right .item2 .outline-box2 {
+  width: 141px;
+  height: 129px;
+  background: url(../images/yellow-miaobian.png) no-repeat 100% 1% 100%;
+}
+.page2 .content .right .item2 .outline-box2 .outline {
+  width: 132px;
+  height: 120px;
+}
+.page2 .content .right .item2 .outline-box2 .outline .year {
+  margin-top: 30px;
+  margin-left: 21px;
+  font-size: 20px;
+}
+.page2 .content .right .item2 .outline-box2 .outline .date {
+  margin-top: 24px;
+  margin-left: 21px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 36px;
+}
+.page2 .ride-a-bike {
+  display: flex;
+  justify-content: flex-end;
+}
+.page2 .ride-a-bike img {
+  width: 576px;
+  height: 324px;
+}
+.page2 #news-overlay {
+  background-color: #000;
+  filter: alpha(opacity=50);
+  /* IE的透明度 */
+  opacity: 0.5;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-popup {
+  height: 700px;
+  overflow: scroll;
+  overflow-x: hidden;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 105;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-popup .content-text {
+  position: relative;
+  background: url('../images/new-bg.png') no-repeat no-repeat 100% 1% 100%;
+  padding-bottom: 10px;
+}
+.page2 .news-popup .content-text .title-text {
+  width: 992px;
+  height: 34px;
+  margin: 100px auto 0;
+  font-size: 34px;
+  color: #000000;
+}
+.page2 .news-popup .content-text .date {
+  width: 120px;
+  height: 34px;
+  line-height: 34px;
+  margin: 40px auto 49px;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+}
+.page2 .news-popup .content-text .text {
+  width: 1058px;
+  margin: 0 auto;
+}
+.page2 .news-popup .content-text .text .text-top,
+.page2 .news-popup .content-text .text .text-bottom {
+  width: 1058px;
+  font-size: 16px;
+  color: #000000;
+}
+.page2 .news-popup .content-text .text .text-top {
+  padding-bottom: 20px;
+}
+.page2 .news-popup .content-text .text .text-bottom {
+  padding-top: 20px;
+}
+.page2 .news-popup .content-text .text .text-img {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.page2 .news-popup .content-text .text .text-img img {
+  width: 100%;
+  height: 100%;
+}
+.page2 .news-popup .close-box {
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  right: -39px;
+  top: -39px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.page2 .news-popup video {
+  width: 1025px;
+  height: 516px;
+}
+.page2 .news-popup .pre-next-box {
+  width: 100vw;
+  position: relative;
+}
+.page2 .news-popup .pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page2 .news-popup .pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-popup .pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-pre-next-box {
+  width: 100vw;
+  height: 0;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 103;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page2 .news-pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page2 .news-pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page2 .news-pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page3 {
+  background: url(../images/案例BG.jpg) no-repeat 100% 1% 100% fixed;
+  position: relative;
+  /* 半透明的遮罩层 */
+}
+.page3 .navbar-default {
+  border: none;
+}
+.page3 .title {
+  position: relative;
+  width: 303px;
+  height: 115px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}
+.page3 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page3 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page3 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page3 .title img {
+  position: absolute;
+  right: -134px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page3 .card-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 49px;
+  height: 433px;
+}
+.page3 .card-box .item {
+  box-shadow: 10px 8px 0 1px #0e0d32;
+  border-radius: 3px;
+  opacity: 0;
+}
+.page3 .card-box .item2 {
+  display: none;
+  margin-left: 49px;
+}
+.page3 .card-box .item:nth-child(2n-1) .dot-box .dot {
+  background-color: #257dff;
+}
+.page3 .card-box .item:nth-child(2n) .dot-box .dot {
+  background-color: #79abff;
+}
+.page3 .card-box .item:nth-child(2n + 1) .dot-box .dot {
+  background-color: #ffc900;
+}
+.page3 .card-box .item:nth-child(4n) .dot-box .dot {
+  background-color: #fca1c3;
+}
+.page3 .card-box .bottom {
+  width: 606px;
+  height: 374px;
+  margin: 0 -1px -1px 0;
+}
+.page3 .card-box .bottom img {
+  width: 100%;
+  height: 100%;
+}
+.page3 .top {
+  line-height: 59px;
+  display: flex;
+  background-color: #fff;
+}
+.page3 .top .dot-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80px;
+}
+.page3 .top .dot-box .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+}
+.page3 .top .text {
+  font-size: 24px;
+  color: #110e31;
+  margin-left: 10px;
+}
+.page3 .fly {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.page3 .fly img {
+  width: 579px;
+  height: 324px;
+}
+.page3 #case-overlay {
+  background-color: #000;
+  filter: alpha(opacity=50);
+  /* IE的透明度 */
+  opacity: 0.5;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .case-popup {
+  height: 849px;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 102;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .case-popup .bottom {
+  position: relative;
+  height: 798px;
+  background: url('../images/case-card-bg.png') no-repeat no-repeat 100% 1% 100%;
+  overflow: hidden;
+}
+.page3 .case-popup .bottom .top-border {
+  position: relative;
+  padding: 16px;
+  border: 2px solid #171335;
+  margin: 48px auto 0 auto;
+  height: 549px;
+  width: 1057px;
+  background-color: #fff;
+}
+.page3 .case-popup .bottom .play-btn {
+  width: 210px;
+  height: 102px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -111%);
+  z-index: 103;
+}
+.page3 .case-popup .bottom .bottom-text {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  white-space: wrap;
+  width: 1057px;
+  font-size: 18px;
+  margin: 37px auto 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.page3 .case-popup .close-box {
+  width: 74px;
+  height: 74px;
+  position: absolute;
+  right: -39px;
+  top: -39px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.page3 .case-popup video {
+  width: 1025px;
+  height: 516px;
+}
+.page3 .pre-next-box {
+  width: 100vw;
+  height: 500px;
+  filter: alpha(opacity=100);
+  /* IE的透明度 */
+  opacity: 1;
+  /* 透明度 */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 101;
+  /* 此处的图层要大于页面 */
+  display: none;
+}
+.page3 .pre-next-box img {
+  position: absolute;
+  width: 69px;
+  height: 149px;
+}
+.page3 .pre-next-box .left-img {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page3 .pre-next-box .right-img {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page4 {
+  position: relative;
+  background: url(../images/产品BG.jpg) no-repeat 100% 1% 100% fixed;
+  background-size: cover;
+}
+.page4 .title {
+  position: relative;
+  width: 303px;
+  margin: 84px auto 0;
+  text-align: center;
+}
+.page4 .title .text-1 {
+  width: 267px;
+  line-height: 44px;
+  background-color: #0e0d32;
+  color: #fff;
+  font-size: 23px;
+}
+.page4 .title .text-2 {
+  width: 324px;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  color: #0e0d32;
+  font-size: 36px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px #0e0d32;
+}
+.page4 .title .text-2 .text-box {
+  width: 190px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.page4 .title img {
+  position: absolute;
+  right: -134px;
+  top: -36px;
+  width: 288px;
+  height: 162px;
+}
+.page4 .content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.page4 .content .item {
+  margin-top: 40px;
+}
+.page4 .content .item .card {
+  width: 278px;
+  height: 376px;
+  background: url('../images/miaobian.png') no-repeat 100% 1% 100%;
+}
+.page4 .content .item .card .pic-box {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  left: 4px;
+  top: 0;
+}
+.page4 .content .item .card .pic-box img {
+  width: 100%;
+  height: 100%;
+}
+.page4 .content .item .text {
+  width: 264px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  background: url('../images/product-text-border.png') no-repeat 100% 1% 100%;
+  font-size: 22px;
+}
+.page4 .content .item:nth-child(3) {
+  display: none;
+}
+.page4 .bg-box {
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.page4 .bg-box .cloud2 {
+  position: absolute;
+  right: 0;
+  animation-name: cloud-move-right;
+  animation-duration: 6s;
+  animation-iteration-count: 2;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+}
+.page4 .bg-box .cloud2 img {
+  width: 100%;
+  height: 100px;
+}
+@keyframes cloud-move-left {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -20%;
+  }
+}
+@keyframes cloud-move-right {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: -20%;
+  }
+}
+.page4 .cloud-kunkun {
+  position: absolute;
+  bottom: 20%;
+  right: 24%;
+  z-index: 3;
+}
+.page4 .cloud-kunkun img {
+  width: 585px;
+  height: 249px;
+}
+@media screen and (min-width: 1200px) {
+  body .page4 {
+    background: url(../images/产品BG.jpg) no-repeat 100% 100% fixed;
+    background-size: cover;
+  }
+  body .page4 .content .item:nth-child(3) {
+    display: block;
+  }
+  body .page4 .cloud-kunkun {
+    bottom: 0;
+    margin-top: 100px;
+  }
+  body .page3 .card-box .item2:nth-child(3) {
+    display: block;
+  }
+  body .page2 .content .right {
+    margin-top: 0;
+  }
+  body .page2 .content .item:nth-child(2) {
+    display: block;
+  }
+}

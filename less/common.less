@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'YouSheBiaoTiHei';
+	font-size: 45px;
+	font-weight: bold;
+
+	src: url(../font/优设标题黑.ttf);
+}
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1280px;
+	}
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	margin-bottom: 0;
+	background-color: transparent;
+	border-bottom: none;
+	display: fixed;
+	top: 0;
+	.navbar-brand {
+		height: 102px;
+		img {
+			width: 160px;
+			height: 65px;
+		}
+	}
+	.navbar-collapse {
+		padding-right: 0;
+	}
+	.navbar-nav {
+		li {
+			height: 102px;
+			display: flex;
+			align-items: center;
+			font-size: 18px;
+			color: #000000;
+		}
+	}
+	.navbar-toggle {
+		margin-right: 0;
+	}
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #110e31;
+}
+.navbar-header {
+	position: relative;
+}
+.menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url(../images/启动-首图/menu.png) no-repeat;
+	background-size: cover;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.menu {
+		display: none;
+	}
+}
